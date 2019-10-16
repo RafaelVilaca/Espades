@@ -21,3 +21,4 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\D
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.pdb
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll

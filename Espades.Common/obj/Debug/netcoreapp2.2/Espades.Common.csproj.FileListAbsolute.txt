@@ -7,3 +7,12 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\ob
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csprojAssemblyReference.cache
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.Resources.LanguageLocalizer.pt-BR.resources
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csproj.GenerateResource.cache
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csproj.CopyComplete

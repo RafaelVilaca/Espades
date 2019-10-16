@@ -1,0 +1,3177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenined" xml:space="preserve">
+    <value>[XMS] Acesso negado, verifique seu usuário e/ou senha junto a TI</value>
+  </data>
+  <data name="AuthProviderLoginClaimFailed" xml:space="preserve">
+    <value>Authentication provider authorize claim failed</value>
+  </data>
+  <data name="AuthProviderLoginFailed" xml:space="preserve">
+    <value>Authentication provider login failed</value>
+  </data>
+  <data name="AuthProviderRoleNotCreated" xml:space="preserve">
+    <value>Os perfils de acesso "{0}" do serviço de autorização não está cadastrado</value>
+  </data>
+  <data name="AuthProviderUserHasNoCompany" xml:space="preserve">
+    <value>O usuário do serviço de autenticação não possui empresa</value>
+  </data>
+  <data name="BusinessCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código do negócio já registrado</value>
+  </data>
+  <data name="BusinessCodeRequired" xml:space="preserve">
+    <value>Código do negócio é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupAlreadyRegistered" xml:space="preserve">
+    <value>Grupo de cliente já registrado para esse negócio</value>
+  </data>
+  <data name="BusinessCustomerGroupBusinessNotFound" xml:space="preserve">
+    <value>Negócio não encontrado</value>
+  </data>
+  <data name="BusinessCustomerGroupBusinessRequired" xml:space="preserve">
+    <value>Negócio é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupCustomerGroupNotFound" xml:space="preserve">
+    <value>Grupo de cliente não encontrado</value>
+  </data>
+  <data name="BusinessCustomerGroupCustomerGroupRequired" xml:space="preserve">
+    <value>Grupo do cliente é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupMaxDiscountInvalid" xml:space="preserve">
+    <value>Desconto máximo inválido</value>
+  </data>
+  <data name="BusinessCustomerGroupMinimumOrderQuantityInvalid" xml:space="preserve">
+    <value>Quantidade mínima do pedido inválida</value>
+  </data>
+  <data name="BusinessCustomerGroupMinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo do pedido inválido</value>
+  </data>
+  <data name="BusinessMaxDiscountInvalid" xml:space="preserve">
+    <value>Desconto máximo inválido</value>
+  </data>
+  <data name="BusinessMaxDiscountOverOneHundred" xml:space="preserve">
+    <value>O desconto máximo deve ser inferior a 100</value>
+  </data>
+  <data name="BusinessMinimumOrderQuantityInvalid" xml:space="preserve">
+    <value>Quantidade mínima de pedido inválida</value>
+  </data>
+  <data name="BusinessMinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo de pedido inválido</value>
+  </data>
+  <data name="BusinessNameAlreadyRegistered" xml:space="preserve">
+    <value>Nome do negócio já registrado</value>
+  </data>
+  <data name="BusinessNameRequired" xml:space="preserve">
+    <value>Nome do negócio é obrigatório</value>
+  </data>
+  <data name="ClaimExtractionFailed" xml:space="preserve">
+    <value>Claim extraction failed</value>
+  </data>
+  <data name="CompanyCodeRequired" xml:space="preserve">
+    <value>Código da empresa é obrigatório</value>
+  </data>
+  <data name="CompanyDefaultLanguageRequired" xml:space="preserve">
+    <value>Linguagem padrão da empresa é obrigatório</value>
+  </data>
+  <data name="CompanyDivisionRequired" xml:space="preserve">
+    <value>Divisão da empresa é obrigatório</value>
+  </data>
+  <data name="CompanyNameRequired" xml:space="preserve">
+    <value>Nome da empresa é obrigatório</value>
+  </data>
+  <data name="CustomerCompanyCodeNotFound" xml:space="preserve">
+    <value>No company found with the customer company code</value>
+  </data>
+  <data name="CustomerGroupCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código do grupo de cliente já registrado</value>
+  </data>
+  <data name="CustomerGroupCodeRequired" xml:space="preserve">
+    <value>Código do grupo de cliente é obrigatório</value>
+  </data>
+  <data name="CustomerGroupDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição do grupo de cliente já registrada</value>
+  </data>
+  <data name="CustomerGroupDescriptionRequired" xml:space="preserve">
+    <value>Descrição do grupo de cliente é obrigatório</value>
+  </data>
+  <data name="DeleteOrderLineFailed" xml:space="preserve">
+    <value>Erro ao deletar linha da ordem</value>
+  </data>
+  <data name="DeliveryMethodCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da forma de entrega já registrado</value>
+  </data>
+  <data name="DeliveryMethodCodeRequired" xml:space="preserve">
+    <value>Código da forma de entrega é obrigatório</value>
+  </data>
+  <data name="DeliveryMethodDescriptionRequired" xml:space="preserve">
+    <value>Descrição da forma de entrega é obrigatório</value>
+  </data>
+  <data name="DeliveryTermCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da condição de entrega já registrado</value>
+  </data>
+  <data name="DeliveryTermCodeRequired" xml:space="preserve">
+    <value>Código da condição de entrega é obrigatório</value>
+  </data>
+  <data name="DeliveryTermDescriptionRequired" xml:space="preserve">
+    <value>Descrição da condição de entrega é obrigatório</value>
+  </data>
+  <data name="DraftBusinessRequired" xml:space="preserve">
+    <value>Código do negócio é obrigatório</value>
+  </data>
+  <data name="DraftCustomerIdRequired" xml:space="preserve">
+    <value>Cliente é obrigatório</value>
+  </data>
+  <data name="DraftDateRequired" xml:space="preserve">
+    <value>Data do rascunho é obrigatório</value>
+  </data>
+  <data name="DraftTemporaryOrderNumberRequired" xml:space="preserve">
+    <value>Código temporário do pedido é obrigatório</value>
+  </data>
+  <data name="DraftUserIdRequired" xml:space="preserve">
+    <value>Usuário é obrigatório</value>
+  </data>
+  <data name="DraftUserVendorCodeRequired" xml:space="preserve">
+    <value>Código do usuário do rascunho é obrigatório</value>
+  </data>
+  <data name="DraftWarehouseRequired" xml:space="preserve">
+    <value>Código do armazém é obrigatório</value>
+  </data>
+  <data name="EntitiesNotFound" xml:space="preserve">
+    <value>Registros não encontrados</value>
+  </data>
+  <data name="EntityDeleteFailed" xml:space="preserve">
+    <value>Failed to delete entity</value>
+  </data>
+  <data name="EntityDeleteSuccess" xml:space="preserve">
+    <value>Registro removido com sucesso</value>
+  </data>
+  <data name="EntityDeleteValidationFailed" xml:space="preserve">
+    <value>Validation failed to delete entity</value>
+  </data>
+  <data name="EntityGetAllFailed" xml:space="preserve">
+    <value>Failed to get all entities</value>
+  </data>
+  <data name="EntityGetFailed" xml:space="preserve">
+    <value>Failed to get entity</value>
+  </data>
+  <data name="EntityGetFilterFailed" xml:space="preserve">
+    <value>Failed to get entities by filter item</value>
+  </data>
+  <data name="EntityNotFound" xml:space="preserve">
+    <value>Registro não encontrado</value>
+  </data>
+  <data name="EntitySaveFailed" xml:space="preserve">
+    <value>Failed to save entity</value>
+  </data>
+  <data name="EntitySaveSuccess" xml:space="preserve">
+    <value>Registro salvo com sucesso</value>
+  </data>
+  <data name="EntitySaveValidationFailed" xml:space="preserve">
+    <value>Validation failed to save entity</value>
+  </data>
+  <data name="FacilityCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da instalação já registrado</value>
+  </data>
+  <data name="FacilityCodeRequired" xml:space="preserve">
+    <value>Código da instalação é obrigatório</value>
+  </data>
+  <data name="FacilityNameAlreadyRegistered" xml:space="preserve">
+    <value>Nome da instalação já registrado</value>
+  </data>
+  <data name="FacilityNameRequired" xml:space="preserve">
+    <value>Nome da instalação é obrigatório</value>
+  </data>
+  <data name="FunctionalityActionActionRequired" xml:space="preserve">
+    <value>Ação da funcionalidade é obrigatório</value>
+  </data>
+  <data name="FunctionalityActionFunctionalityIdRequired" xml:space="preserve">
+    <value>ID da funcionalidade é obrigatório</value>
+  </data>
+  <data name="FunctionalityDescriptionRequired" xml:space="preserve">
+    <value>Descrição da funcionalidade é obrigatório</value>
+  </data>
+  <data name="FunctionalityNameRequired" xml:space="preserve">
+    <value>Nome da funcionalidade é obrigatório</value>
+  </data>
+  <data name="GetOrderBatchHeadFailed" xml:space="preserve">
+    <value>Get order batchhead failed</value>
+  </data>
+  <data name="GetOrderTextFailed" xml:space="preserve">
+    <value>Get order text failed</value>
+  </data>
+  <data name="GetUserBusinessesFailed" xml:space="preserve">
+    <value>Get user businesses failed</value>
+  </data>
+  <data name="GetUserByLoginFailed" xml:space="preserve">
+    <value>Get user by login failed</value>
+  </data>
+  <data name="GetUserCustomersFailed" xml:space="preserve">
+    <value>Get user customers failed</value>
+  </data>
+  <data name="GetUserFacilitiesFailed" xml:space="preserve">
+    <value>Get user facilities failed</value>
+  </data>
+  <data name="GetUserFunctionalitiesFailed" xml:space="preserve">
+    <value>Get user functionalities permissions failed</value>
+  </data>
+  <data name="GetUserItensFailed" xml:space="preserve">
+    <value>Failed to get user itens</value>
+  </data>
+  <data name="ImportCustomersXmlFailed" xml:space="preserve">
+    <value>Failed to import customers xml</value>
+  </data>
+  <data name="ImportProductsXmlFailed" xml:space="preserve">
+    <value>Failed to import products xml</value>
+  </data>
+  <data name="InvalidUserOrPassword" xml:space="preserve">
+    <value>O Usuário ou senha é inválido</value>
+  </data>
+  <data name="M3DataNotFound" xml:space="preserve">
+    <value>Dados do M3 não encontrados, nenhum registro foi importado</value>
+  </data>
+  <data name="OrderBusinessRequired" xml:space="preserve">
+    <value>Negócio do pedido é obrigatório</value>
+  </data>
+  <data name="OrderCurrencyRequired" xml:space="preserve">
+    <value>Código da moeda do pedido é obrigatório</value>
+  </data>
+  <data name="OrderCustomerNumberRequired" xml:space="preserve">
+    <value>Código do cliente é obrigatório</value>
+  </data>
+  <data name="OrderDeliveryAddressRequired" xml:space="preserve">
+    <value>Endereço de entrega do pedido é obrigatório</value>
+  </data>
+  <data name="OrderDeliveryMethodRequired" xml:space="preserve">
+    <value>Forma de entrega do pedido é obrigatório</value>
+  </data>
+  <data name="OrderFacilityRequired" xml:space="preserve">
+    <value>Instalação do pedido é obrigatório</value>
+  </data>
+  <data name="OrderItemNumberRequired" xml:space="preserve">
+    <value>Código do item é obrigatório</value>
+  </data>
+  <data name="OrderItemQuantityRequired" xml:space="preserve">
+    <value>Quantidade do item é obrigatório</value>
+  </data>
+  <data name="OrderItemRequestedDeliveryDateRequired" xml:space="preserve">
+    <value>Data de entrega do item é obrigatório</value>
+  </data>
+  <data name="OrderItemSalesPriceRequired" xml:space="preserve">
+    <value>Preço do item é obrigatório</value>
+  </data>
+  <data name="OrderItemsRequired" xml:space="preserve">
+    <value>Itens do pedido são obrigatórios</value>
+  </data>
+  <data name="OrderItemTemporaryOrderNumberRequired" xml:space="preserve">
+    <value>Código temporário do pedido é obrigatório</value>
+  </data>
+  <data name="OrderItemTransactionReasonCodeRequired" xml:space="preserve">
+    <value>Código do motivo da transação do item é obrigatório</value>
+  </data>
+  <data name="OrderPaymentTermsRequired" xml:space="preserve">
+    <value>Condição de pagamento do pedido é obrigatório</value>
+  </data>
+  <data name="OrderRequestedDeliveryDateRequired" xml:space="preserve">
+    <value>Data de entrega do pedido é obrigatório</value>
+  </data>
+  <data name="OrderTermOfDeliveryRequired" xml:space="preserve">
+    <value>Condição de entrega do pedido é obrigatório</value>
+  </data>
+  <data name="OrderUserRequired" xml:space="preserve">
+    <value>Usuário do pedido é obrigatório</value>
+  </data>
+  <data name="OrderVendorNotFound" xml:space="preserve">
+    <value>Vendedor do pedido não encontrado</value>
+  </data>
+  <data name="OrderWarehouseRequired" xml:space="preserve">
+    <value>Armazém do pedido é obrigatório</value>
+  </data>
+  <data name="PaymentTermCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da condição de pagamento já registrado</value>
+  </data>
+  <data name="PaymentTermCodeRequired" xml:space="preserve">
+    <value>Código da condição de pagamento é obrigatório</value>
+  </data>
+  <data name="PaymentTermDaysOfPaymentRequired" xml:space="preserve">
+    <value>Prazo da condição de pagamento é obrigatório</value>
+  </data>
+  <data name="PaymentTermDescriptionRequired" xml:space="preserve">
+    <value>Descrição da condição de pagamento é obrigatório</value>
+  </data>
+  <data name="PermissionFunctionalityActionIdRequired" xml:space="preserve">
+    <value>ID da ação da funcionalidade é obrigatório</value>
+  </data>
+  <data name="PermissionFunctionalityIdRequired" xml:space="preserve">
+    <value>ID da funcionalidade é obrigatório</value>
+  </data>
+  <data name="PermissionRoleIdRequired" xml:space="preserve">
+    <value>ID do perfil de acesso é obrigatório</value>
+  </data>
+  <data name="ProductCompanyCodeNotFound" xml:space="preserve">
+    <value>No company found with the product company code</value>
+  </data>
+  <data name="ProductWarehouseNotFound" xml:space="preserve">
+    <value>No warehouse found with the code {0}</value>
+  </data>
+  <data name="RoleFunctionalityFunctionalityIdRequired" xml:space="preserve">
+    <value>ID da funcionalidade é obrigatório</value>
+  </data>
+  <data name="RoleFunctionalityPermissionFunctionalityActionIdRequired" xml:space="preserve">
+    <value>ID da ação da funcionalidade é obrigatório</value>
+  </data>
+  <data name="RoleFunctionalityPermissionRoleFunctionalityIdRequired" xml:space="preserve">
+    <value>ID do perfil de acesso x funcionalidade é obrigatório</value>
+  </data>
+  <data name="RoleFunctionalityRoleIdRequired" xml:space="preserve">
+    <value>ID do perfil de acesso é obrigatório</value>
+  </data>
+  <data name="RoleNameAlreadyRegistered" xml:space="preserve">
+    <value>Nome do perfil de acesso já registrado</value>
+  </data>
+  <data name="RoleNameRequired" xml:space="preserve">
+    <value>Nome do perfil de acesso é obrigatório</value>
+  </data>
+  <data name="SaveOrderBatchHeadFailed" xml:space="preserve">
+    <value>Save order batchhead failed</value>
+  </data>
+  <data name="SaveOrderLineFailed" xml:space="preserve">
+    <value>Save order line failed</value>
+  </data>
+  <data name="SearchGroupCustomerGroupNotFound" xml:space="preserve">
+    <value>Grupo de cliente não encontrado</value>
+  </data>
+  <data name="SearchGroupCustomerGroupRequired" xml:space="preserve">
+    <value>Grupo do cliente é obrigatório</value>
+  </data>
+  <data name="SearchGroupDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição do grupo de busca já registrada</value>
+  </data>
+  <data name="SearchGroupDescriptionRequired" xml:space="preserve">
+    <value>Descrição do grupo de busca é obrigatório</value>
+  </data>
+  <data name="SearchGroupMaxDiscountInvalid" xml:space="preserve">
+    <value>Desconto máximo do grupo de busca inválido</value>
+  </data>
+  <data name="SearchGroupMinimumOrderQuantityInvalid" xml:space="preserve">
+    <value>Quantidade mínima do pedido do grupo de busca inválida</value>
+  </data>
+  <data name="SearchGroupMinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo do pedido do grupo de busca inválido</value>
+  </data>
+  <data name="SelectedUserInChargeNotFound" xml:space="preserve">
+    <value>Usuário encarregado selecionado não encontrado</value>
+  </data>
+  <data name="SyncM3DataFailed" xml:space="preserve">
+    <value>Sync data from M3 API failed</value>
+  </data>
+  <data name="SystemUserNotFound" xml:space="preserve">
+    <value>No system user found for the customer service</value>
+  </data>
+  <data name="TokenValidationFailed" xml:space="preserve">
+    <value>Application token validation failed</value>
+  </data>
+  <data name="TransactionReasonCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código do motivo da transação já registrado</value>
+  </data>
+  <data name="TransactionReasonCodeRequired" xml:space="preserve">
+    <value>Código do motivo da transação é obrigatório</value>
+  </data>
+  <data name="TransactionReasonDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição do motivo da transação já registrada</value>
+  </data>
+  <data name="TransactionReasonDescriptionRequired" xml:space="preserve">
+    <value>Descrição do motivo da transação é obrigatória</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Autorização negada para a requisição</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Erro {0} - Falha Inesperada, consulte o setor técnico</value>
+  </data>
+  <data name="UnexpectedException" xml:space="preserve">
+    <value>Error {0} - Unexpected exception {1}</value>
+  </data>
+  <data name="UserBusinessAlreadyRegistered" xml:space="preserve">
+    <value>Usuário x Negócio já registrado</value>
+  </data>
+  <data name="UserBusinessBusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio é obrigatório</value>
+  </data>
+  <data name="UserBusinessBusinessNotFound" xml:space="preserve">
+    <value>UsuárioNegócio negócio não encontrado</value>
+  </data>
+  <data name="UserBusinessMaxDiscountApprovalInvalid" xml:space="preserve">
+    <value>Usuário x Negócio desconto máximo de aprovação inválido</value>
+  </data>
+  <data name="UserBusinessMaxDiscountInvalid" xml:space="preserve">
+    <value>Usuário x Negócio desconto máximo inválido</value>
+  </data>
+  <data name="MinimumOrderQuantityInvalid" xml:space="preserve">
+    <value>Quantidade mínima do pedido inválida</value>
+  </data>
+  <data name="UserBusinessMinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo do pedido inválido</value>
+  </data>
+  <data name="UserBusinessUserIdRequired" xml:space="preserve">
+    <value>ID do usuário é obrigatório</value>
+  </data>
+  <data name="UserBusinessUserNotFound" xml:space="preserve">
+    <value>UsuárioNegócio usuário não encontrado</value>
+  </data>
+  <data name="UserDoesntHasBusinesses" xml:space="preserve">
+    <value>Seu usuário não possui negócios vinculados</value>
+  </data>
+  <data name="UserDoesntHasCustomers" xml:space="preserve">
+    <value>Seu usuário não possui clientes vinculados</value>
+  </data>
+  <data name="UserDoesntHasFacilities" xml:space="preserve">
+    <value>Seu usuário não possui instalações vinculadas</value>
+  </data>
+  <data name="UserDoesntHasItens" xml:space="preserve">
+    <value>Seu usuário não possui itens vinculados disponíveis nesse armazém</value>
+  </data>
+  <data name="UserEmailAlreadyRegistered" xml:space="preserve">
+    <value>Email do usuário já registrado</value>
+  </data>
+  <data name="UserEmailRequired" xml:space="preserve">
+    <value>Email do usuário é obrigatório</value>
+  </data>
+  <data name="UserFacilityAlreadyRegistered" xml:space="preserve">
+    <value>Usuário x Instalação já registrado</value>
+  </data>
+  <data name="UserFacilityFacilityIdRequired" xml:space="preserve">
+    <value>ID da instalação é obrigatório</value>
+  </data>
+  <data name="UserFacilityFacilityNotFound" xml:space="preserve">
+    <value>UsuárioInstalação instalação não encontrada</value>
+  </data>
+  <data name="UserFacilityUserIdRequired" xml:space="preserve">
+    <value>ID do usuário é obrigatório</value>
+  </data>
+  <data name="UserFacilityUserNotFound" xml:space="preserve">
+    <value>UsuárioInstalação usuário não encontrado</value>
+  </data>
+  <data name="UserHasDrafts" xml:space="preserve">
+    <value>Usuário possui rascunhos pendentes</value>
+  </data>
+  <data name="UserLoginAlreadyRegistered" xml:space="preserve">
+    <value>Login do usuário já registrado</value>
+  </data>
+  <data name="UserLoginPasswordRequired" xml:space="preserve">
+    <value>Senha de acesso é obrigatório</value>
+  </data>
+  <data name="UserLoginUserNameRequired" xml:space="preserve">
+    <value>Usuário de acesso é obrigatório</value>
+  </data>
+  <data name="UserNameRequired" xml:space="preserve">
+    <value>Nome do usuário é obrigatório</value>
+  </data>
+  <data name="UserNotRegistered" xml:space="preserve">
+    <value>[e-Sales] O usuário não registrado no e-Sales</value>
+  </data>
+  <data name="UserTypeDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição do tipo de usuário já registrada</value>
+  </data>
+  <data name="UserTypeDescriptionRequired" xml:space="preserve">
+    <value>Descrição do tipo de usuário é obrigatório</value>
+  </data>
+  <data name="UserTypeLevelAlreadyRegistered" xml:space="preserve">
+    <value>Nível do tipo de usuário já registrado</value>
+  </data>
+  <data name="UserTypeLevelRequired" xml:space="preserve">
+    <value>Nível do tipo de usuário é obrigatório</value>
+  </data>
+  <data name="UserUserInChargeInvalid" xml:space="preserve">
+    <value>Usuário encarregado inválido para o tipo do usuário</value>
+  </data>
+  <data name="UserUserTypeRequired" xml:space="preserve">
+    <value>Tipo do usuário é obrigatório</value>
+  </data>
+  <data name="UserVendorCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código de vendedor do usuário já registrado</value>
+  </data>
+  <data name="ValidateOrderFailed" xml:space="preserve">
+    <value>Validate order failed</value>
+  </data>
+  <data name="WarehouseCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código do armazém já registrado</value>
+  </data>
+  <data name="WarehouseCodeRequired" xml:space="preserve">
+    <value>Código do armazém é obrigatório</value>
+  </data>
+  <data name="WarehouseFacilityIdRequired" xml:space="preserve">
+    <value>ID da instalação é obrigatório</value>
+  </data>
+  <data name="WarehouseNameAlreadyRegistered" xml:space="preserve">
+    <value>Nome do armazém já registrado</value>
+  </data>
+  <data name="WarehouseNameRequired" xml:space="preserve">
+    <value>Nome do armazém é obrigatório</value>
+  </data>
+  <data name="ConfirmOrderFailed" xml:space="preserve">
+    <value>Confirm order failed</value>
+  </data>
+  <data name="DeleteOrderFailed" xml:space="preserve">
+    <value>Erro ao deletar Ordem</value>
+  </data>
+  <data name="DeleteOrderSuccess" xml:space="preserve">
+    <value>Pedido removido com sucesso</value>
+  </data>
+  <data name="DraftNotFound" xml:space="preserve">
+    <value>Rascunho não encontrado</value>
+  </data>
+  <data name="OrderBlockedDueMaximumDiscountWithoutApprover" xml:space="preserve">
+    <value>Pedido bloqueado devido a desconto máximo excedido sem aprovadores</value>
+  </data>
+  <data name="OrderBlockedDueMinimumValues" xml:space="preserve">
+    <value>Pedido bloqueado devido a valores mínimos inválidos</value>
+  </data>
+  <data name="OrderItemAddressIdRequired" xml:space="preserve">
+    <value>Endereço ID do item é obrigatório</value>
+  </data>
+  <data name="ExceedingDiscountLimit" xml:space="preserve">
+    <value>Desconto máximo excedido</value>
+  </data>
+  <data name="CompanyDefaultOrderTypeRequired" xml:space="preserve">
+    <value>Tipo de pedido padrão da empresa é obrigatório</value>
+  </data>
+  <data name="MissingStateRegistrationNumber" xml:space="preserve">
+    <value>Inscrição estadual ausente</value>
+  </data>
+  <data name="MultipleBlockingIssues" xml:space="preserve">
+    <value>Bloqueios multiplus</value>
+  </data>
+  <data name="OrderBlockedEmailSubject" xml:space="preserve">
+    <value>Pedido {0} bloqueado</value>
+  </data>
+  <data name="OrderConfirmed" xml:space="preserve">
+    <value>Pedido confirmado</value>
+  </data>
+  <data name="OrderWaitingApproval" xml:space="preserve">
+    <value>Pedido aguardando aprovação</value>
+  </data>
+  <data name="PaymentTermIsLonger" xml:space="preserve">
+    <value>Prazo de pagamento excedido</value>
+  </data>
+  <data name="RedispatchPayer" xml:space="preserve">
+    <value>Redistribuidor pagador</value>
+  </data>
+  <data name="UpdateOrderStatusFailed" xml:space="preserve">
+    <value>Update order status failed</value>
+  </data>
+  <data name="OrderBlockedEmailTitle" xml:space="preserve">
+    <value>e-Sales - Pedido Bloqueado</value>
+  </data>
+  <data name="OrderBlockedDueMaximumDiscount" xml:space="preserve">
+    <value>Bloqueado por desconto máximo excedido</value>
+  </data>
+  <data name="OrderBlockedDueMaximumPaymentTerm" xml:space="preserve">
+    <value>Bloqueado por prazo máximo excedido</value>
+  </data>
+  <data name="OrderBlockedDueMissingStateRegistration" xml:space="preserve">
+    <value>Bloqueado por inscrição estadual ausente</value>
+  </data>
+  <data name="OrderBlockedLabel" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="OrderBlocksLabel" xml:space="preserve">
+    <value>Bloqueios</value>
+  </data>
+  <data name="OrderCustomerAddressLabel" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="OrderCustomerLabel" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="OrderDateLabel" xml:space="preserve">
+    <value>Data pedido</value>
+  </data>
+  <data name="OrderDeliveryDateLabel" xml:space="preserve">
+    <value>Data prevista de envio</value>
+  </data>
+  <data name="OrderDeliveryMethodLabel" xml:space="preserve">
+    <value>Forma de entrega</value>
+  </data>
+  <data name="OrderDeliveryTermLabel" xml:space="preserve">
+    <value>Condição de entrega</value>
+  </data>
+  <data name="OrderDiscountLabel" xml:space="preserve">
+    <value>Desconto</value>
+  </data>
+  <data name="OrderItemLabel" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="OrderItemValueLabel" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="OrderLabel" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="OrderPaymentMethodLabel" xml:space="preserve">
+    <value>Forma de pagamento</value>
+  </data>
+  <data name="OrderQuantityLabel" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="OrderSalesmanLabel" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="OrderStatusLabel" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="OrderTotalQuantityLabel" xml:space="preserve">
+    <value>Quantidade total</value>
+  </data>
+  <data name="OrderTotalValueLabel" xml:space="preserve">
+    <value>Valor total</value>
+  </data>
+  <data name="OrderTransactionReasonLabel" xml:space="preserve">
+    <value>Motivo transação</value>
+  </data>
+  <data name="DraftUserVendorNameRequired" xml:space="preserve">
+    <value>Nome do usuário do rascunho é obrigatório</value>
+  </data>
+  <data name="ApproveOrderFailed" xml:space="preserve">
+    <value>Approve order failed</value>
+  </data>
+  <data name="CantApproveDueMissingStateRegistration" xml:space="preserve">
+    <value>Não é possível aprovar o pedido, a inscrição estadual do endereço está ausente</value>
+  </data>
+  <data name="ChangeOrderStatusFailed" xml:space="preserve">
+    <value>Change order status failed</value>
+  </data>
+  <data name="DraftDeliveryAddressIdRequired" xml:space="preserve">
+    <value>Endereço de entrega é obrigatório</value>
+  </data>
+  <data name="OrderApprovedSuccessfully" xml:space="preserve">
+    <value>Pedido aprovado com sucesso</value>
+  </data>
+  <data name="OrderReprovedSuccessfully" xml:space="preserve">
+    <value>Pedido reprovado com sucesso</value>
+  </data>
+  <data name="Reproved" xml:space="preserve">
+    <value>Reprovada</value>
+  </data>
+  <data name="ReproveOrderFailed" xml:space="preserve">
+    <value>Reprove order failed</value>
+  </data>
+  <data name="Invoiced" xml:space="preserve">
+    <value>Faturada</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Concluída</value>
+  </data>
+  <data name="DashboardTotalGross" xml:space="preserve">
+    <value>Total bruto</value>
+  </data>
+  <data name="DashboardTotalNet" xml:space="preserve">
+    <value>Total liquído</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Eliminada</value>
+  </data>
+  <data name="PickingList" xml:space="preserve">
+    <value>Em separação</value>
+  </data>
+  <data name="Allocated" xml:space="preserve">
+    <value>Alocada</value>
+  </data>
+  <data name="GetDashboardInfoFailed" xml:space="preserve">
+    <value>Get dashboard info failed</value>
+  </data>
+  <data name="Delivered" xml:space="preserve">
+    <value>A faturar</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Cotação</value>
+  </data>
+  <data name="Provisional" xml:space="preserve">
+    <value>Preliminar</value>
+  </data>
+  <data name="Registered" xml:space="preserve">
+    <value>Registrada</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>Reservada</value>
+  </data>
+  <data name="LineDiscountInvalid" xml:space="preserve">
+    <value>O desconto concedido é inválido</value>
+  </data>
+  <data name="PreCustomerActivityBranchRequired" xml:space="preserve">
+    <value>Ramo de atividade do cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressCityRequired" xml:space="preserve">
+    <value>Cidade do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressCnpjCpfRequired" xml:space="preserve">
+    <value>CNPJ/CPF do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressCustomerIdRequired" xml:space="preserve">
+    <value>Cliente do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressLineRequired" xml:space="preserve">
+    <value>Linha do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressPostalCodeRequired" xml:space="preserve">
+    <value>Código postal do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressStateRegistrationRgRequired" xml:space="preserve">
+    <value>Inscrição estadual do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAddressStateRequired" xml:space="preserve">
+    <value>Estado do endereço é obrigatório</value>
+  </data>
+  <data name="PreCustomerAgentRequired" xml:space="preserve">
+    <value>Vendedor do cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerCnpjCpfRequired" xml:space="preserve">
+    <value>CNPJ/CPF do cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerFileCustomerIdRequired" xml:space="preserve">
+    <value>Cliente do arquivo é obrigatório</value>
+  </data>
+  <data name="PreCustomerFileDescriptionRequired" xml:space="preserve">
+    <value>Descrição do arquivo é obrigatório</value>
+  </data>
+  <data name="PreCustomerFileFileStringRequired" xml:space="preserve">
+    <value>Base64 do arquivo é obrigatório</value>
+  </data>
+  <data name="PreCustomerFileTypeRequired" xml:space="preserve">
+    <value>Tipo do arquivo é obrigatório</value>
+  </data>
+  <data name="PreCustomerPhoneCustomerIdRequired" xml:space="preserve">
+    <value>Cliente do telefone é obrigatório</value>
+  </data>
+  <data name="PreCustomerPhoneDescriptionRequired" xml:space="preserve">
+    <value>Descrição do telefone é obrigatório</value>
+  </data>
+  <data name="PreCustomerPhoneNumberRequired" xml:space="preserve">
+    <value>Número do telefone é obrigatório</value>
+  </data>
+  <data name="PreCustomerReferenceBankRequired" xml:space="preserve">
+    <value>Banco de referência é obrigatório</value>
+  </data>
+  <data name="PreCustomerReferenceCustomerIdRequired" xml:space="preserve">
+    <value>Cliente da referência é obrigatório</value>
+  </data>
+  <data name="PreCustomerReferencePhoneRequired" xml:space="preserve">
+    <value>Telefone de referência é obrigatório</value>
+  </data>
+  <data name="PreCustomerSocialReasonRequired" xml:space="preserve">
+    <value>Razão social do cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerSuggestedCreditLimit" xml:space="preserve">
+    <value>Limite de crédito sugerido do cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerFileExtensionRequired" xml:space="preserve">
+    <value>Extensão do arquivo é obrigatório</value>
+  </data>
+  <data name="ModelStateValidationFailed" xml:space="preserve">
+    <value>Model state validation failed</value>
+  </data>
+  <data name="CompanyCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da empresa já registrado</value>
+  </data>
+  <data name="CompanyDivisionAlreadyRegistered" xml:space="preserve">
+    <value>Divisão da empresa já registrada</value>
+  </data>
+  <data name="ClickHereEmailMsg" xml:space="preserve">
+    <value>Clique aqui para acessar o aplicativo</value>
+  </data>
+  <data name="InformativeEmailMsg" xml:space="preserve">
+    <value>Email informativo</value>
+  </data>
+  <data name="LinkDoesntWorkMsg" xml:space="preserve">
+    <value>Caso o botão acima não funcione, copie e cole o link abaixo no seu navegador</value>
+  </data>
+  <data name="UserCannotBeOwnManager" xml:space="preserve">
+    <value>O usuário não pode ser seu próprio gestor</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>R$</value>
+  </data>
+  <data name="DecimalSymbol" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="ThousandSymbol" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="OrderFacilityNotFound" xml:space="preserve">
+    <value>Instalação não encontrada</value>
+  </data>
+  <data name="OrderInvalidDeliveryDate" xml:space="preserve">
+    <value>Data de entrega inválida, a data mínima é {0}</value>
+  </data>
+  <data name="OrderInvalidDate" xml:space="preserve">
+    <value>Data de entrega inválida</value>
+  </data>
+  <data name="PreCustomerCustomerGroupRequired" xml:space="preserve">
+    <value>Grupo de cliente é obrigatório</value>
+  </data>
+  <data name="PreCustomerDeliveryMethodRequired" xml:space="preserve">
+    <value>Forma de entrega é obrigatório</value>
+  </data>
+  <data name="PreCustomerDeliveryTermRequired" xml:space="preserve">
+    <value>Condição de entrega é obrigatório</value>
+  </data>
+  <data name="PreCustomerFacilityRequired" xml:space="preserve">
+    <value>Instalação é obrigatório</value>
+  </data>
+  <data name="PreCustomerPaymentTermRequired" xml:space="preserve">
+    <value>Condição de pagamento é obrigatório</value>
+  </data>
+  <data name="PreCustomerWarehouseRequired" xml:space="preserve">
+    <value>Armazém é obrigatório</value>
+  </data>
+  <data name="PreCustomerStatusRequired" xml:space="preserve">
+    <value>Status é obrigatório</value>
+  </data>
+  <data name="CompanyDefaultCurrencyCodeRequired" xml:space="preserve">
+    <value>Código da moeda padrão da empresa é obrigatório</value>
+  </data>
+  <data name="ProductDoesntHaveWarehouses" xml:space="preserve">
+    <value>Product doesn't have warehouses</value>
+  </data>
+  <data name="PreCustomerStatusCompanyRequired" xml:space="preserve">
+    <value>Empresa é obrigatório</value>
+  </data>
+  <data name="PreCustomerStatusDefaultInitialStatusAlreadyRegistered" xml:space="preserve">
+    <value>Status inicial padrão já registrado</value>
+  </data>
+  <data name="PreCustomerStatusDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição já registrada</value>
+  </data>
+  <data name="PreCustomerStatusDescriptionRequired" xml:space="preserve">
+    <value>Descrição é obrigatório</value>
+  </data>
+  <data name="UserTypePreCustomerStatusAlreadyRegistered" xml:space="preserve">
+    <value>Tipo de usuário x Status já registrado</value>
+  </data>
+  <data name="UserTypePreCustomerStatusPreCustomerStatusIdRequired" xml:space="preserve">
+    <value>ID do status é obrigatório</value>
+  </data>
+  <data name="UserTypePreCustomerStatusUserTypeIdRequired" xml:space="preserve">
+    <value>ID do tipo de usuário é obrigatório</value>
+  </data>
+  <data name="CostingLineHasNoElements" xml:space="preserve">
+    <value>Linha {0} do modelo de custo não possui elementos</value>
+  </data>
+  <data name="CostingModelHasNoLines" xml:space="preserve">
+    <value>Modelo de custo {0} não possui linhas</value>
+  </data>
+  <data name="GetItemPricingFailed" xml:space="preserve">
+    <value>Get item pricing failed</value>
+  </data>
+  <data name="PricelistHasNoModels" xml:space="preserve">
+    <value>Lista de preços {0} não possui modelos</value>
+  </data>
+  <data name="PricelistHasNoModelSequence9999Or500" xml:space="preserve">
+    <value>Lista de preços {0} não possui modelo com sequência 9999 ou 500</value>
+  </data>
+  <data name="PricelistHasNoValidDate" xml:space="preserve">
+    <value>Lista de preços {0} não possui datas válidas</value>
+  </data>
+  <data name="ReservedAllocated" xml:space="preserve">
+    <value>Reservado/Alocado</value>
+  </data>
+  <data name="OrderCustomerBlocked" xml:space="preserve">
+    <value>O cliente está bloqueado, não é possível incluir um pedido para o mesmo</value>
+  </data>
+  <data name="CheckCnpjCpfRegistrationFailed" xml:space="preserve">
+    <value>Failed to check pre-customer cnpj/cpf registration at M3</value>
+  </data>
+  <data name="InvalidCnpjCpf" xml:space="preserve">
+    <value>O CNPJ/CPF informado é inválido</value>
+  </data>
+  <data name="CnpjCpfAlreadyRegistered" xml:space="preserve">
+    <value>O CNPJ/CPF informado já está registrado para o cliente {0}</value>
+  </data>
+  <data name="CnpjCpfIsNotRegistered" xml:space="preserve">
+    <value>O CNPJ/CPF informado não está registrado</value>
+  </data>
+  <data name="CustomerBlockedSefaz" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="CustomerReleased" xml:space="preserve">
+    <value>Liberado</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupBusinessCustomerGroupRequired" xml:space="preserve">
+    <value>Grupo de cliente x negócio é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupSearchGroupRequired" xml:space="preserve">
+    <value>Grupo de busca é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupAlreadyRegistered" xml:space="preserve">
+    <value>Grupo de busca já registrado para esse grupo de cliente x negócio</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupBusinessCustomerGroupNotFound" xml:space="preserve">
+    <value>Grupo de cliente x Negócio não encontrado</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupMaxDiscountInvalid" xml:space="preserve">
+    <value>Desconto máximo inválido</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupMinimumOrderQuantityInvalid" xml:space="preserve">
+    <value>Quantidade mínima do pedido inválida</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupMinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo do pedido inválido</value>
+  </data>
+  <data name="BusinessCustomerGroupSearchGroupSearchGroupNotFound" xml:space="preserve">
+    <value>Grupo de busca não encontrado</value>
+  </data>
+  <data name="CopyOrderFailed" xml:space="preserve">
+    <value>Copy order failed</value>
+  </data>
+  <data name="CopyOrderFailure" xml:space="preserve">
+    <value>Ocorreu uma falha ao copiar o pedido</value>
+  </data>
+  <data name="CopyOrderSucess" xml:space="preserve">
+    <value>O pedido foi copiado com sucesso, novo pedido gerado {0}</value>
+  </data>
+  <data name="NextUserInChargeNotFound" xml:space="preserve">
+    <value>Próximo aprovador não encontrado, nenhum gestor pode aprovar esse pedido</value>
+  </data>
+  <data name="OrderSentToNextApprover" xml:space="preserve">
+    <value>Pedido enviado ao próximo aprovador</value>
+  </data>
+  <data name="ApprovalTextRequired" xml:space="preserve">
+    <value>Observação da aprovação é obrigatório</value>
+  </data>
+  <data name="SaveApprovalTextFailed" xml:space="preserve">
+    <value>Save approval text failed</value>
+  </data>
+  <data name="CompanyDefaultAssortmentCodeRequired" xml:space="preserve">
+    <value>Código do sortimento padrão é obrigatório</value>
+  </data>
+  <data name="ImportDiscountModelsFailed" xml:space="preserve">
+    <value>Failed to import discount models</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountAlreadyRegistered" xml:space="preserve">
+    <value>Desconto do item já registrado para esse grupo de cliente x negócio</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountBusinessCustomerGroupRequired" xml:space="preserve">
+    <value>Grupo de cliente x Negócio é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountMaxDiscountInvalid" xml:space="preserve">
+    <value>Desconto máximo inválido</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountMaxDiscountRequired" xml:space="preserve">
+    <value>Desconto máximo do item é obrigatório</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountMaximumLineQuantityInvalid" xml:space="preserve">
+    <value>Quantidade máxima do item inválida</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountMaximumLineQuantityRequired" xml:space="preserve">
+    <value>Quantidade máxima do item é obrigatória</value>
+  </data>
+  <data name="BusinessCustomerGroupLineDiscountpBusinessCustomerGroupNotFound" xml:space="preserve">
+    <value>Grupo de cliente x Negócio não encontrado</value>
+  </data>
+  <data name="OrderBlockedDueSystemConfiguration" xml:space="preserve">
+    <value>Pedido bloqueado devido a limites atingidos</value>
+  </data>
+  <data name="PaymentMethodCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código da forma de pagamento já registrado</value>
+  </data>
+  <data name="PaymentMethodCodeRequired" xml:space="preserve">
+    <value>Código da forma de pagamento é obrigatório</value>
+  </data>
+  <data name="PaymentMethodDescriptionRequired" xml:space="preserve">
+    <value>Descrição da forma de pagamento é obrigatório</value>
+  </data>
+  <data name="CantDeleteOwnUser" xml:space="preserve">
+    <value>Não é possível excluir o próprio usuário</value>
+  </data>
+  <data name="OrderPaymentMethodRequired" xml:space="preserve">
+    <value>Forma de pagamento do pedido é obrigatório</value>
+  </data>
+  <data name="SyncM3DataSuccess" xml:space="preserve">
+    <value>Dados importados com sucesso</value>
+  </data>
+  <data name="SpecieDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição já registrada</value>
+  </data>
+  <data name="SpecieDescriptionRequired" xml:space="preserve">
+    <value>Descrição é obrigatório</value>
+  </data>
+  <data name="SpecieRelationshipAlreadyRegistered" xml:space="preserve">
+    <value>DE/PARA já registrado para essa espécie</value>
+  </data>
+  <data name="SpecieRelationshipSpecieRequired" xml:space="preserve">
+    <value>Espécie é obrigatório</value>
+  </data>
+  <data name="SpecieRelationshipTransactionReasonFromRequired" xml:space="preserve">
+    <value>Motivo da transação DE é obrigatório</value>
+  </data>
+  <data name="SpecieRelationshipTransactionReasonToRequired" xml:space="preserve">
+    <value>Código do motivo da transação PARA é obrigatório</value>
+  </data>
+  <data name="PreCustomerPaymentMethodRequired" xml:space="preserve">
+    <value>Forma de pagamento é obrigatório</value>
+  </data>
+  <data name="SendAnalysisRegistrationFailed" xml:space="preserve">
+    <value>Erro ao enviar para análise</value>
+  </data>
+  <data name="SendToAnalysisSuccess" xml:space="preserve">
+    <value>Enviado para análise com sucesso</value>
+  </data>
+  <data name="DefaultInitialAnalysisStatusIsNotRegistered" xml:space="preserve">
+    <value>Status de análise inicial padrão não registrado</value>
+  </data>
+  <data name="PreCustomerStatusDefaultInitialAnalysisStatusAlreadyRegister" xml:space="preserve">
+    <value>Status de análise inicial padrão já registrado</value>
+  </data>
+  <data name="PreCustomerUpdateStatusTitle" xml:space="preserve">
+    <value>E-Sales Status atualizado do pré-cadastro: {0}</value>
+  </data>
+  <data name="PreRegistrationStatusEmailSubject" xml:space="preserve">
+    <value>Status do Pré-Cadastro: {0}</value>
+  </data>
+  <data name="PreCustomerCustomerBirthdayRequired" xml:space="preserve">
+    <value>Data de nascimento é obrigatório</value>
+  </data>
+  <data name="PreCustomerDescriptionOtherGoodsRequired" xml:space="preserve">
+    <value>Descrição de outros bens é obrigatório</value>
+  </data>
+  <data name="PreCustomerOtherDataRequired" xml:space="preserve">
+    <value>Outros dados é obrigatório</value>
+  </data>
+  <data name="PreCustomerOwnGoodsOptionRequired" xml:space="preserve">
+    <value>Selecione ao menos um bem que possua em seu nome</value>
+  </data>
+  <data name="PreCustomerCultivationAnimalRequired" xml:space="preserve">
+    <value>Selecione o tipo de animal cultivado, se não, selecione a opção "outros" e preencha o campo "outros dados".</value>
+  </data>
+  <data name="OrderBatchHeadNotFound" xml:space="preserve">
+    <value>Cabeçalho do pedido temporário não encontrado no M3</value>
+  </data>
+  <data name="PreCustomerStateRegistrationRgRequired" xml:space="preserve">
+    <value>Inscrição estadual/rg é obrigatório</value>
+  </data>
+  <data name="RewardBeginDateRequired" xml:space="preserve">
+    <value>Data de início é obrigatória</value>
+  </data>
+  <data name="RewardBusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio é obrigatório</value>
+  </data>
+  <data name="RewardDescriptionRequired" xml:space="preserve">
+    <value>Descrição é obrigatório</value>
+  </data>
+  <data name="RewardMinimumQuantityRequired" xml:space="preserve">
+    <value>Quantidade mínima é obrigatória</value>
+  </data>
+  <data name="RewardProductProductIdRequired" xml:space="preserve">
+    <value>ID do produto é obrigatório</value>
+  </data>
+  <data name="RewardProductRewardIdRequired" xml:space="preserve">
+    <value>ID da premiação é obrigatório</value>
+  </data>
+  <data name="RewardUserRewardIdRequired" xml:space="preserve">
+    <value>ID da premiação é obrigatório</value>
+  </data>
+  <data name="RewardUserUserIdRequired" xml:space="preserve">
+    <value>ID do usuário é obrigatório</value>
+  </data>
+  <data name="RewardValueRequired" xml:space="preserve">
+    <value>Valor é obrigatório</value>
+  </data>
+  <data name="UserBusinessGoalBeginDateRequired" xml:space="preserve">
+    <value>Data de início é obrigatória</value>
+  </data>
+  <data name="UserBusinessGoalUserBusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio do usuário é obrigatório</value>
+  </data>
+  <data name="BusinessRewardProductAlreadyRegistered" xml:space="preserve">
+    <value>Produto já registrado para essa premiação</value>
+  </data>
+  <data name="BusinessRewardUserAlreadyRegistered" xml:space="preserve">
+    <value>Usuário já registrado para essa premiação</value>
+  </data>
+  <data name="DiscountAccelerationAlreadyRegistered" xml:space="preserve">
+    <value>Aceleração já registrada para esse desconto nesse período</value>
+  </data>
+  <data name="ProductAccelerationAlreadyRegistered" xml:space="preserve">
+    <value>Aceleração já registrada para esse produto nesse período</value>
+  </data>
+  <data name="DeleteOrderLineM3Error" xml:space="preserve">
+    <value>Falha ao remover linha de pedido do M3, erro retornado: {0}</value>
+  </data>
+  <data name="CommissionPlanDescriptionRequired" xml:space="preserve">
+    <value>Descrição é obrigatório</value>
+  </data>
+  <data name="CommissionPlanFormulaDiscountBelowLimitRequired" xml:space="preserve">
+    <value>Fórmula de desconto abaixo do limite é obrigatório</value>
+  </data>
+  <data name="UserM3IdentificationRequired" xml:space="preserve">
+    <value>Seu usuário não possui o M3 Id informado, contate o setor técnico</value>
+  </data>
+  <data name="BusinessAdditionalCommissionAdditionalCommissionRequired" xml:space="preserve">
+    <value>Comissão adicional é obrigatória</value>
+  </data>
+  <data name="BusinessAdditionalCommissionBusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio é obrigatório</value>
+  </data>
+  <data name="BusinessAdditionalCommissionCustomerCategoryCodeRequired" xml:space="preserve">
+    <value>Código da categoria do cliente é obrigatório</value>
+  </data>
+  <data name="CommissionPlanInUse" xml:space="preserve">
+    <value>Plano de comissão em uso</value>
+  </data>
+  <data name="BusinessAdditionalCommissionAlreadyRegistered" xml:space="preserve">
+    <value>Código de categoria do cliente já registrado para esse negócio</value>
+  </data>
+  <data name="CalculateCommissionFailed" xml:space="preserve">
+    <value>Calculate commission failed</value>
+  </data>
+  <data name="MarginVariationSearchGroup1Required" xml:space="preserve">
+    <value>Grupo de buscas 1 é obrigatório</value>
+  </data>
+  <data name="MarginVariationSearchGroup3Required" xml:space="preserve">
+    <value>Grupo de buscar 3 é obrigatório</value>
+  </data>
+  <data name="MarginVariationVariationRequired" xml:space="preserve">
+    <value>Variação é obrigatório</value>
+  </data>
+  <data name="MarginVariationAlreadyRegistered" xml:space="preserve">
+    <value>Variação de margem já registrada para o negócio</value>
+  </data>
+  <data name="OrderHasItemsWithInvalidBasePrice" xml:space="preserve">
+    <value>O pedido contem itens com preço base inválido</value>
+  </data>
+  <data name="PriceListNotFound" xml:space="preserve">
+    <value>O item {0} não possui uma lista de preços. O setor responsável foi notificado.</value>
+  </data>
+  <data name="SpecialProductProductRequired" xml:space="preserve">
+    <value>O produto é obrigatório</value>
+  </data>
+  <data name="WrongCommissionPlanFormula" xml:space="preserve">
+    <value>Existe um erro na composição da fórmula de comissão, contate o setor técnico</value>
+  </data>
+  <data name="InvalidCommissionFormula" xml:space="preserve">
+    <value>Existe uma ou mais fórmulas com erro, por favor verifique</value>
+  </data>
+  <data name="SpecialProductAlreadyRegistered" xml:space="preserve">
+    <value>O produto especial já está registrado</value>
+  </data>
+  <data name="SpecialProduct" xml:space="preserve">
+    <value>Produto especial</value>
+  </data>
+  <data name="DraftItemCommissionRequired" xml:space="preserve">
+    <value>Comissão é obrigatória</value>
+  </data>
+  <data name="DraftItemDiscountPercentageRequired" xml:space="preserve">
+    <value>Percentual de desconto é obrigatório</value>
+  </data>
+  <data name="DraftItemDraftIdRequired" xml:space="preserve">
+    <value>ID do rascunho é obrigatório</value>
+  </data>
+  <data name="DraftItemItemNumberRequired" xml:space="preserve">
+    <value>Código do item é obrigatório</value>
+  </data>
+  <data name="DraftItemManagerialMarginRequired" xml:space="preserve">
+    <value>Margem gerencial é obrigatória</value>
+  </data>
+  <data name="DraftItemSalesQualityRequired" xml:space="preserve">
+    <value>Qualidade de venda é obrigatória</value>
+  </data>
+  <data name="OrderBusinessLabel" xml:space="preserve">
+    <value>Negócio</value>
+  </data>
+  <data name="OrderFacilityLabel" xml:space="preserve">
+    <value>Instalação</value>
+  </data>
+  <data name="OrderItemInterestLabel" xml:space="preserve">
+    <value>Encargos</value>
+  </data>
+  <data name="OrderItemManagerialMarginLabel" xml:space="preserve">
+    <value>Margem gerencial</value>
+  </data>
+  <data name="OrderItemPotentialCommissionLabel" xml:space="preserve">
+    <value>Comissão potencial</value>
+  </data>
+  <data name="OrderItemSalesQualityLabel" xml:space="preserve">
+    <value>Qualidade venda</value>
+  </data>
+  <data name="OrderItemTotalPriceLabel" xml:space="preserve">
+    <value>Valor total</value>
+  </data>
+  <data name="OrderItemTransportLabel" xml:space="preserve">
+    <value>Frete/Chapa</value>
+  </data>
+  <data name="OrderPaymentTermLabel" xml:space="preserve">
+    <value>Condição de pagamento</value>
+  </data>
+  <data name="SaveLineChargeFailed" xml:space="preserve">
+    <value>Falha ao gravar os descontos e/ou comissão do item no M3</value>
+  </data>
+  <data name="ContactLabel" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="CustomerAddressLabel" xml:space="preserve">
+    <value>Endereço do cliente</value>
+  </data>
+  <data name="CustomerEmailFooter" xml:space="preserve">
+    <value>Todos os pedidos de orçamento, encomendas, confirmações e transações estão sujeitos às nossas Condições Gerais de Venda. Estas Condições Gerais de Venda podem ser consultadas no nosso website (www.trouwnutrition.com.br) e poderão ser-lhe enviadas mediante solicitação. Pela presente rejeitamos explicitamente a aplicabilidade de quaisquer outros termos e condições.</value>
+  </data>
+  <data name="CustomerStateRegistrationLabel" xml:space="preserve">
+    <value>Inscrição estadual</value>
+  </data>
+  <data name="CustomerNumberLabel" xml:space="preserve">
+    <value>Número cliente</value>
+  </data>
+  <data name="CustomerOrderNumberLabel" xml:space="preserve">
+    <value>Seu número de pedido</value>
+  </data>
+  <data name="DeliveryAddressLabel" xml:space="preserve">
+    <value>Endereço de entrega</value>
+  </data>
+  <data name="DeliveryDateLabel" xml:space="preserve">
+    <value>Data envio prevista</value>
+  </data>
+  <data name="DeliverySpecificationsLabel" xml:space="preserve">
+    <value>Especificações de entrega</value>
+  </data>
+  <data name="ItemCodeLabel" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="ItemDescriptionLabel" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="ItemTotalValueLabel" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ItemUnitOfMeasureLabel" xml:space="preserve">
+    <value>U/M</value>
+  </data>
+  <data name="ItemValueLabel" xml:space="preserve">
+    <value>Preço unitário</value>
+  </data>
+  <data name="OrderConfirmationLabel" xml:space="preserve">
+    <value>CONFIRMAÇÃO DE ENCOMENDA</value>
+  </data>
+  <data name="OrderNumberLabel" xml:space="preserve">
+    <value>Número encomenda</value>
+  </data>
+  <data name="TotalValueLabel" xml:space="preserve">
+    <value>Preço Total</value>
+  </data>
+  <data name="TotalWeightLabel" xml:space="preserve">
+    <value>Peso total</value>
+  </data>
+  <data name="CompanyDefaultIRRFRequired" xml:space="preserve">
+    <value>IRRF padrão é obrigatório</value>
+  </data>
+  <data name="ProgressiveIRRFAliquotRequired" xml:space="preserve">
+    <value>Aliquota é obrigatório</value>
+  </data>
+  <data name="ProgressiveIRRFBaseRequired" xml:space="preserve">
+    <value>Valor base é obrigatório</value>
+  </data>
+  <data name="ProgressiveIRRFDiscountRequired" xml:space="preserve">
+    <value>Desconto é obrigatório</value>
+  </data>
+  <data name="UserIsBlocked" xml:space="preserve">
+    <value>O usuário está bloqueado, por favor contate a equipe de cadastro</value>
+  </data>
+  <data name="CommissionBusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio é obrigatório</value>
+  </data>
+  <data name="CommissionItemCommissionIdRequired" xml:space="preserve">
+    <value>ID da comissão é obrigatório</value>
+  </data>
+  <data name="CommissionItemCommissionPercentageRequired" xml:space="preserve">
+    <value>Percentual de comissão é obrigatório</value>
+  </data>
+  <data name="CommissionItemCommissionValueRequired" xml:space="preserve">
+    <value>Percentual de valor é obrigatório</value>
+  </data>
+  <data name="CommissionItemDiscountPercentageRequired" xml:space="preserve">
+    <value>Percentual de desconto é obrigatório</value>
+  </data>
+  <data name="CommissionItemDiscountValueRequired" xml:space="preserve">
+    <value>Valor de desconto é obrigatório</value>
+  </data>
+  <data name="CommissionItemItemNumberRequired" xml:space="preserve">
+    <value>Código do item é obrigatório</value>
+  </data>
+  <data name="CommissionItemQuantityRequired" xml:space="preserve">
+    <value>Quantidade do item é obrigatório</value>
+  </data>
+  <data name="CommissionItemStatusRequired" xml:space="preserve">
+    <value>Status do item é obrigatório</value>
+  </data>
+  <data name="CommissionItemUnitPriceRequired" xml:space="preserve">
+    <value>Valor unitário é obrigatório</value>
+  </data>
+  <data name="CommissionItemWeightRequired" xml:space="preserve">
+    <value>Peso é obrigatório</value>
+  </data>
+  <data name="CommissionOrderDateRequired" xml:space="preserve">
+    <value>Data do pedido é obrigatório</value>
+  </data>
+  <data name="CommissionOrderNumberRequired" xml:space="preserve">
+    <value>Número do pedido é obrigatório</value>
+  </data>
+  <data name="CommissionPaymentStatusRequired" xml:space="preserve">
+    <value>Status do pagamento é obrigatório</value>
+  </data>
+  <data name="CommissionStatusRequired" xml:space="preserve">
+    <value>Status da comissão é obrigatório</value>
+  </data>
+  <data name="CommissionUserIdRequired" xml:space="preserve">
+    <value>ID do usuário é obrigatório</value>
+  </data>
+  <data name="CommissionUserManagerIdRequired" xml:space="preserve">
+    <value>ID do gestor do usuário é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionDateRequired" xml:space="preserve">
+    <value>Data é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionItemCommissionItemIdRequired" xml:space="preserve">
+    <value>ID do item da comissão é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionItemGeneratedCommissionIdRequired" xml:space="preserve">
+    <value>ID da geração é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionItemPaidValueRequired" xml:space="preserve">
+    <value>Valor pago é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionItemPaymentFractionRequired" xml:space="preserve">
+    <value>Fração da duplicata é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionItemPaymentNumberRequired" xml:space="preserve">
+    <value>Número da duplicata é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionStatusRequired" xml:space="preserve">
+    <value>Status é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionUserIdRequired" xml:space="preserve">
+    <value>ID do usuário é obrigatório</value>
+  </data>
+  <data name="SaveCommissionHeaderFailed" xml:space="preserve">
+    <value>Failed to save commission head</value>
+  </data>
+  <data name="GenerateCommissionsFailed" xml:space="preserve">
+    <value>Failed to generate commissions</value>
+  </data>
+  <data name="CriticalOrderFailure" xml:space="preserve">
+    <value>[M3] Falha crítica no pedido. Foi gerado um novo pedido com o código {0}, por gentileza aguarde o contato do serviço de atendimento ao cliente.</value>
+  </data>
+  <data name="InvalidBaseCost" xml:space="preserve">
+    <value>Falha na configuração do custo base do produto {0}, não é possível inclui-lo no pedido. O setor responsável foi notificado.</value>
+  </data>
+  <data name="BusinessIdRequired" xml:space="preserve">
+    <value>ID do negócio é obrigatório</value>
+  </data>
+  <data name="ProductIdRequired" xml:space="preserve">
+    <value>ID do produto é obrigatório</value>
+  </data>
+  <data name="BusinessProductAlreadyRegistered" xml:space="preserve">
+    <value>Produto já registrado para esse negócio</value>
+  </data>
+  <data name="DefaultInitialStatusNotRegistered" xml:space="preserve">
+    <value>Status inicial do pré-cadastro não registrado</value>
+  </data>
+  <data name="FreightNotRegistered" xml:space="preserve">
+    <value>Frete não cadastrado para essa localização {0}</value>
+  </data>
+  <data name="MissingUserType" xml:space="preserve">
+    <value>Seu usuário não tem um Tipo de usuário cadastrado, contate o setor técnico</value>
+  </data>
+  <data name="CantApproveOrReproveOrders" xml:space="preserve">
+    <value>Não é permitido aprovar/reprovar pedidos em nome de outros usuários</value>
+  </data>
+  <data name="CustomerLabel" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="DraftLabel" xml:space="preserve">
+    <value>Pedido temporário</value>
+  </data>
+  <data name="SalesmanLabel" xml:space="preserve">
+    <value>Representante</value>
+  </data>
+  <data name="GetOrderItemsFailed" xml:space="preserve">
+    <value>[M3] Falha ao retornar items do pedido</value>
+  </data>
+  <data name="OrderConfirmationEmailTitle" xml:space="preserve">
+    <value>e-Sales - Pedido Confirmado</value>
+  </data>
+  <data name="YearRequired" xml:space="preserve">
+    <value>Informe o ano</value>
+  </data>
+  <data name="FailedToApproveItemAtM3" xml:space="preserve">
+    <value>[M3] Falha ao atualizar status do item do pedido</value>
+  </data>
+  <data name="FailedToReturnOrderFromM3" xml:space="preserve">
+    <value>[M3] Falha ao retornar pedido</value>
+  </data>
+  <data name="UserBusinessCantBeApproverOfHisOwnApprover" xml:space="preserve">
+    <value>O usuário não pode ser gestor do seu próprio gestor</value>
+  </data>
+  <data name="UserBusinessStackOverFlowPrevention" xml:space="preserve">
+    <value>O usuário não pode ser seu próprio gestor</value>
+  </data>
+  <data name="PreCustomersBillingAddressRequired" xml:space="preserve">
+    <value>O endereço de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomerBillingAddressLine1Required" xml:space="preserve">
+    <value>Logradouro de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomerBillingAddressLine2Required" xml:space="preserve">
+    <value>Bairro de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomerBillingCityRequired" xml:space="preserve">
+    <value>Cidade de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomerBillingPostalCodeRequired" xml:space="preserve">
+    <value>CEP de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomerBillingStateRequired" xml:space="preserve">
+    <value>Estado de cobrança é obrigatório</value>
+  </data>
+  <data name="PreCustomersDeliveryAddressRequired" xml:space="preserve">
+    <value>Informe ao menos um endereço de entrega</value>
+  </data>
+  <data name="PreCustomerDeliveryAddressRequired" xml:space="preserve">
+    <value>Informe ao menos um endereço de entrega</value>
+  </data>
+  <data name="XMSUnreachable" xml:space="preserve">
+    <value>[XMS] Desculpe, mas o serviço de autenticação está inácessivel no momento, tente novamente em alguns instantes</value>
+  </data>
+  <data name="ItemHasInvalidRegister" xml:space="preserve">
+    <value>O item {0} está com o cadastro incorreto, a informação Pacote/Peso padrão é inválida, por gentileza contate o setor de atendimento</value>
+  </data>
+  <data name="OrderManagementEmailTitle" xml:space="preserve">
+    <value>e-Sales - Gestão de Pedidos</value>
+  </data>
+  <data name="OrderReprovedEmailSubject" xml:space="preserve">
+    <value>Pedido {0} reprovado</value>
+  </data>
+  <data name="OrderReprovedEmailTitle" xml:space="preserve">
+    <value>e-Sales - Pedido Reprovado</value>
+  </data>
+  <data name="OrderReprovedDescription" xml:space="preserve">
+    <value>Motivo da reprovação</value>
+  </data>
+  <data name="OrderReprovedLabel" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Prezado(a)</value>
+  </data>
+  <data name="HasApprovedBy" xml:space="preserve">
+    <value>foi aprovado por</value>
+  </data>
+  <data name="OrderSentToNextApproverSubject" xml:space="preserve">
+    <value>Pedido {0} - Em Processo de Aprovação</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>Atenciosamente,</value>
+  </data>
+  <data name="TheOrder" xml:space="preserve">
+    <value>O pedido</value>
+  </data>
+  <data name="TheOrderIsWaiting" xml:space="preserve">
+    <value>O mesmo está nesse momento aguardando aprovação de </value>
+  </data>
+  <data name="PreCustomerPhoneNumberAndEmailRequired" xml:space="preserve">
+    <value>O telefone e o email nos dados de contato são obrigatórios</value>
+  </data>
+  <data name="PreCustomerPhoneRequired" xml:space="preserve">
+    <value>Informe ao menos um contato</value>
+  </data>
+  <data name="ItemDoesntExistsAtBrazilianFiscalRegistration" xml:space="preserve">
+    <value>O item não existe no registro fiscal brasileiro, ele ainda não pode ser comercializado</value>
+  </data>
+  <data name="GeneratedCommissionLimitDateRequired" xml:space="preserve">
+    <value>Informe a data limite</value>
+  </data>
+  <data name="ThisCommissionCanOnlyBeDeletedOrConfirmed" xml:space="preserve">
+    <value>Essa apuração só pode ser excluída ou confirmada</value>
+  </data>
+  <data name="ThisCommissionCanOnlyBePreviewed" xml:space="preserve">
+    <value>Essa apuração só pode ser pré-realizada</value>
+  </data>
+  <data name="GeneratedCommissionItemPaidQuantityRequired" xml:space="preserve">
+    <value>Quantidade paga é obrigatório</value>
+  </data>
+  <data name="CommissionPreviewGenerated" xml:space="preserve">
+    <value>Prévia da comissão gerada com sucesso</value>
+  </data>
+  <data name="SyncSuccessfully" xml:space="preserve">
+    <value>Registros sincronizados com sucesso</value>
+  </data>
+  <data name="OrderNotFound" xml:space="preserve">
+    <value>Pedido não encontrado, verifique o número informado</value>
+  </data>
+  <data name="YouDontHaveAccessToTheBusiness" xml:space="preserve">
+    <value>Você não tem acesso ao negócio do pedido</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Aprovada</value>
+  </data>
+  <data name="OrderApprovedAtESales" xml:space="preserve">
+    <value>O pedido entrou sem bloqueios</value>
+  </data>
+  <data name="OrderApprovedAtESalesBy" xml:space="preserve">
+    <value>O pedido se encontrava bloqueado e teve a última aprovação realizada por {0}</value>
+  </data>
+  <data name="OrderNextApproverIs" xml:space="preserve">
+    <value>O próximo aprovador é {0}</value>
+  </data>
+  <data name="OrderNextApproverNotFound" xml:space="preserve">
+    <value>Não existe ninguém apto a ser o próximo aprovador do pedido</value>
+  </data>
+  <data name="OrderReprovedAtESales" xml:space="preserve">
+    <value>O pedido foi recusado no e-Sales, o mesmo é antigo e não possui o histórico de recusa</value>
+  </data>
+  <data name="OrderReprovedAtESalesBy" xml:space="preserve">
+    <value>O pedido se encontrava bloqueado e foi reprovado por {0}</value>
+  </data>
+  <data name="WaitingForApproval" xml:space="preserve">
+    <value>Aguardando aprovação</value>
+  </data>
+  <data name="GeneratedCommissionBeginDateRequired" xml:space="preserve">
+    <value>Informe a data inicial</value>
+  </data>
+  <data name="GeneratedCommissionEndDateRequired" xml:space="preserve">
+    <value>Informe a data final</value>
+  </data>
+  <data name="DeliveredInvoiced" xml:space="preserve">
+    <value>A faturar/Parcialmente faturado</value>
+  </data>
+  <data name="ReservedPartlyInvoiced" xml:space="preserve">
+    <value>Reservado/Parcialmente faturado</value>
+  </data>
+  <data name="CommissionPreviewGeneratedWithoutItems" xml:space="preserve">
+    <value>Prévia da comissão gerada sem items</value>
+  </data>
+  <data name="StartTimeFinishTime" xml:space="preserve">
+    <value>Processo iniciado em {0} e finalizado em {1}</value>
+  </data>
+  <data name="CommissionPreviewScheduled" xml:space="preserve">
+    <value>Prévia da comissão agendada, você será notificado(a) por email quando o processo finalizar</value>
+  </data>
+  <data name="CommissionProcessingFinished" xml:space="preserve">
+    <value>Processamento da prévia da comissão finalizado</value>
+  </data>
+  <data name="CommissionProcessingFinishedEmail" xml:space="preserve">
+    <value>O processamento da comissão finalizou.</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmada</value>
+  </data>
+  <data name="PreviewGenerated" xml:space="preserve">
+    <value>Prévia gerada</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Em processamento</value>
+  </data>
+  <data name="ProcessingFailed" xml:space="preserve">
+    <value>Falha no processamento</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Aguardando</value>
+  </data>
+  <data name="CannotDeleteCommission" xml:space="preserve">
+    <value>Só é permitido a exclusão de comissões em prévia</value>
+  </data>
+  <data name="Business" xml:space="preserve">
+    <value>Negócio</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="CommissionPercentage" xml:space="preserve">
+    <value>Percentual comissão</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="DiscountPercentage" xml:space="preserve">
+    <value>Percentual desconto</value>
+  </data>
+  <data name="DiscountValue" xml:space="preserve">
+    <value>Valor desconto</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Vencido</value>
+  </data>
+  <data name="FinalValue" xml:space="preserve">
+    <value>Valor final</value>
+  </data>
+  <data name="GrossCommissionValue" xml:space="preserve">
+    <value>Comissão bruta</value>
+  </data>
+  <data name="InvoicedQuantity" xml:space="preserve">
+    <value>Quantidade faturada</value>
+  </data>
+  <data name="InvoicedValue" xml:space="preserve">
+    <value>Valor faturado</value>
+  </data>
+  <data name="IRRF" xml:space="preserve">
+    <value>IRRF</value>
+  </data>
+  <data name="ItemNumber" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="PaymentNumber" xml:space="preserve">
+    <value>Número duplicata</value>
+  </data>
+  <data name="PaymentStatus" xml:space="preserve">
+    <value>Situação duplicata</value>
+  </data>
+  <data name="PaymentValue" xml:space="preserve">
+    <value>Valor duplicata</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="Repaid" xml:space="preserve">
+    <value>Pago(Vencido)</value>
+  </data>
+  <data name="Salesman" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="TotalCommissionValue" xml:space="preserve">
+    <value>Valor total comissão</value>
+  </data>
+  <data name="TotalWeightKg" xml:space="preserve">
+    <value>Peso total (KG)</value>
+  </data>
+  <data name="UnitCommissionValue" xml:space="preserve">
+    <value>Valor unitário comissão</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Preço unitário</value>
+  </data>
+  <data name="Addition" xml:space="preserve">
+    <value>Acréscimo</value>
+  </data>
+  <data name="Decrease" xml:space="preserve">
+    <value>Decréscimo</value>
+  </data>
+  <data name="DescriptionRequired" xml:space="preserve">
+    <value>Descrição é obrigatório</value>
+  </data>
+  <data name="GeneratedCommissionRequired" xml:space="preserve">
+    <value>Comissão gerada é obrigatório</value>
+  </data>
+  <data name="SalesmanRequired" xml:space="preserve">
+    <value>Representante é obrigatório</value>
+  </data>
+  <data name="TypeRequired" xml:space="preserve">
+    <value>Tipo é obrigatório</value>
+  </data>
+  <data name="ValueRequired" xml:space="preserve">
+    <value>Valor é obrigatório</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="PendingCommissionScheduled" xml:space="preserve">
+    <value>Existe uma apuração sendo gerada para um ou mais negócios selecionados, por gentileza aguarde a finalização da mesma</value>
+  </data>
+  <data name="CommissionPreviewConfirmed" xml:space="preserve">
+    <value>Apuração da comissão confirmada</value>
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Comissão</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>Variável</value>
+  </data>
+  <data name="AdjustmentsTableHeader" xml:space="preserve">
+    <value>AJUSTES, CAMPANHAS E PREMIAÇÕES</value>
+  </data>
+  <data name="CommissionPercLabel" xml:space="preserve">
+    <value>COMISSÃO %</value>
+  </data>
+  <data name="CommissionReportHeader" xml:space="preserve">
+    <value>Fechamento da comissão</value>
+  </data>
+  <data name="CommissionValueLabel" xml:space="preserve">
+    <value>COMISSÃO $</value>
+  </data>
+  <data name="DateLabel" xml:space="preserve">
+    <value>DATA</value>
+  </data>
+  <data name="DescriptionLabel" xml:space="preserve">
+    <value>DESCRIÇÃO</value>
+  </data>
+  <data name="DiscountPercLabel" xml:space="preserve">
+    <value>DESC %</value>
+  </data>
+  <data name="DiscountsTableHeader" xml:space="preserve">
+    <value>DESCONTOS</value>
+  </data>
+  <data name="ForInvoiceLabel" xml:space="preserve">
+    <value>PARA PREENCHIMENTO DA NOTA FISCAL</value>
+  </data>
+  <data name="InvoicedQuantityLabel" xml:space="preserve">
+    <value>QTD FAT</value>
+  </data>
+  <data name="IRRFLabel" xml:space="preserve">
+    <value>IRRF</value>
+  </data>
+  <data name="IsPreview" xml:space="preserve">
+    <value>VERSÃO PRÉVIA</value>
+  </data>
+  <data name="ItemLabel" xml:space="preserve">
+    <value>ITEM</value>
+  </data>
+  <data name="ItemUnitPriceLabel" xml:space="preserve">
+    <value>PREÇO NEG</value>
+  </data>
+  <data name="NetValueLabel" xml:space="preserve">
+    <value>VALOR LIQUÍDO</value>
+  </data>
+  <data name="PaymentLabel" xml:space="preserve">
+    <value>DUPLICATA</value>
+  </data>
+  <data name="PaymentPaidValueLabel" xml:space="preserve">
+    <value>VLR PAGO</value>
+  </data>
+  <data name="PaymentValueLabel" xml:space="preserve">
+    <value>VLR DUPL</value>
+  </data>
+  <data name="RefundsTableHeader" xml:space="preserve">
+    <value>REEMBOLSOS</value>
+  </data>
+  <data name="SalesTableHeader" xml:space="preserve">
+    <value>VENDAS</value>
+  </data>
+  <data name="TotalAdjustmentsValue" xml:space="preserve">
+    <value>VALOR TOTAL DE AJUSTES, CAMPANHAS E PREMIAÇÕES</value>
+  </data>
+  <data name="TotalCommissionPeriodLabel" xml:space="preserve">
+    <value>COMISSÃO DO PERÍODO</value>
+  </data>
+  <data name="TotalCommissionValueLabel" xml:space="preserve">
+    <value>VALOR TOTAL COMISSÃO</value>
+  </data>
+  <data name="TotalDiscountValueLabel" xml:space="preserve">
+    <value>VALOR TOTAL DE DESCONTOS</value>
+  </data>
+  <data name="TotalLabel" xml:space="preserve">
+    <value>Totais</value>
+  </data>
+  <data name="TotalRefundValueLabel" xml:space="preserve">
+    <value>VALOR TOTAL DE REEMBOLSOS</value>
+  </data>
+  <data name="TypeLabel" xml:space="preserve">
+    <value>TIPO</value>
+  </data>
+  <data name="ValueLabel" xml:space="preserve">
+    <value>VALOR</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>O download de arquivos falhou</value>
+  </data>
+  <data name="SendEmailsFailed" xml:space="preserve">
+    <value>O envio de emails falhou</value>
+  </data>
+  <data name="CommissionReportSubject" xml:space="preserve">
+    <value>Apuração da comissão {0}</value>
+  </data>
+  <data name="CommissionReportTitle" xml:space="preserve">
+    <value>Comissionamento</value>
+  </data>
+  <data name="CommissionReportEmailsSentSuccessfully" xml:space="preserve">
+    <value>Os emails com os relatórios de comissão foram enviados com sucesso</value>
+  </data>
+  <data name="PreCustomerAddressCnpjCpfInvalid" xml:space="preserve">
+    <value>O CNPJ/CPF do endereço é inválido</value>
+  </data>
+  <data name="PreCustomerCnpjCpfInvalid" xml:space="preserve">
+    <value>O CNPJ/CPF do cadastro é inválido</value>
+  </data>
+  <data name="BusinessLabel" xml:space="preserve">
+    <value>Negócio</value>
+  </data>
+  <data name="TotalBusinessCommissionValueLabel" xml:space="preserve">
+    <value>Comissão total {0}</value>
+  </data>
+  <data name="EmailScheduled" xml:space="preserve">
+    <value>O email foi agendado, você receberá o mesmo em instantes</value>
+  </data>
+  <data name="InvoicedWeightLabel" xml:space="preserve">
+    <value>PESO</value>
+  </data>
+  <data name="ItemBaseCommissionValueLabel" xml:space="preserve">
+    <value>PREÇO BASE</value>
+  </data>
+  <data name="SalesQualityLabel" xml:space="preserve">
+    <value>QUAL. VENDA</value>
+  </data>
+  <data name="BaseCommissionValue" xml:space="preserve">
+    <value>Preço base</value>
+  </data>
+  <data name="InvoicedWeightKg" xml:space="preserve">
+    <value>Peso faturado</value>
+  </data>
+  <data name="SalesQuality" xml:space="preserve">
+    <value>Qualidade venda</value>
+  </data>
+  <data name="ManuallyChangedAtM3" xml:space="preserve">
+    <value>Pedido alterado manualmente no M3</value>
+  </data>
+  <data name="OrderChangedManuallyAtM3" xml:space="preserve">
+    <value>O status do pedido foi alterado manualmente no M3. O pedido foi removido da sua lista no e-Sales.</value>
+  </data>
+  <data name="DeliveryTermIdRequired" xml:space="preserve">
+    <value>ID da condição de entrega é obrigatório</value>
+  </data>
+  <data name="MaxDaysRequired" xml:space="preserve">
+    <value>Número máximo de dias de entrega é obrigatório</value>
+  </data>
+  <data name="DeliveryTermLimitDateAlreadyRegistered" xml:space="preserve">
+    <value>Limite de entrega já registrado para essa instalação</value>
+  </data>
+  <data name="DeliveryTermLimitDates" xml:space="preserve">
+    <value>Data limite condições de entrega</value>
+  </data>
+  <data name="RequestDocumentsFailed" xml:space="preserve">
+    <value>[M3] Ocorreu uma falha ao requisitar os boletos dessa nota fiscal, solicite diretamente ao departamento responsável</value>
+  </data>
+  <data name="RequestDocumentsSuccess" xml:space="preserve">
+    <value>Boleto solicitado com sucesso, você o receberá em seu email {0} em breve</value>
+  </data>
+  <data name="OrderDeliveryTermNotFound" xml:space="preserve">
+    <value>Condição de entrega do pedido não encontrada</value>
+  </data>
+  <data name="OrderInvalidMaxDeliveryDate" xml:space="preserve">
+    <value>Data de entrega inválida, a data máxima é {0}</value>
+  </data>
+  <data name="BRL" xml:space="preserve">
+    <value>R$</value>
+  </data>
+  <data name="GrossCommissionWithAdjustmentsValue" xml:space="preserve">
+    <value>Comissão bruta+ajustes</value>
+  </data>
+  <data name="PreCustomerFileNotFound" xml:space="preserve">
+    <value>Documento não encontrado</value>
+  </data>
+  <data name="OrderInvalidWeekendDeliveryDate" xml:space="preserve">
+    <value>A data de entrega não pode ser um final de semana</value>
+  </data>
+  <data name="PreCustomerBusinessRequired" xml:space="preserve">
+    <value>Negócio é obrigatório</value>
+  </data>
+  <data name="DefaultDeliveryRouteText" xml:space="preserve">
+    <value>Não existem informações adicionais cadastradas</value>
+  </data>
+  <data name="UserBusinessGoalPaymentMonthRequired" xml:space="preserve">
+    <value>O mês/ano de pagamento é obrigatório</value>
+  </data>
+  <data name="BusinessRewardAlreadyPaid" xml:space="preserve">
+    <value>A premiação já foi paga</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Campanha</value>
+  </data>
+  <data name="CampaignFrom" xml:space="preserve">
+    <value>Premiação por {0} ({1} ~ {2})  atingidos na campanha de {3} de  {4} - {5}</value>
+  </data>
+  <data name="Reward" xml:space="preserve">
+    <value>Premiação</value>
+  </data>
+  <data name="RewardFrom" xml:space="preserve">
+    <value>Premiação por {0} TON ({1} ~ {2}) de produtos de  {3} - {4}: {5}</value>
+  </data>
+  <data name="RewardPaymentMonthRequired" xml:space="preserve">
+    <value>O Mês/ano de pagamento é obrigatório</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>DT VENCIMENTO</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>DT PAGAMENTO</value>
+  </data>
+  <data name="UserBusinessGoalAlreadyPaid" xml:space="preserve">
+    <value>A meta já foi paga</value>
+  </data>
+  <data name="UserTypeBusinessVariablePlanAlreadyRegistered" xml:space="preserve">
+    <value>Plano de variável já registrado para esse negócio</value>
+  </data>
+  <data name="BeginDateRequired" xml:space="preserve">
+    <value>Data de início é obrigatório</value>
+  </data>
+  <data name="DraftItemIdRequired" xml:space="preserve">
+    <value>ID do item do rascunho é obrigatório</value>
+  </data>
+  <data name="EndDateRequired" xml:space="preserve">
+    <value>Data final é obrigatório</value>
+  </data>
+  <data name="GeneratedVariablePlanIdRequired" xml:space="preserve">
+    <value>ID do plano de variável gerado é obrigatório</value>
+  </data>
+  <data name="PaidValueRequired" xml:space="preserve">
+    <value>Valor pago é obrigatório</value>
+  </data>
+  <data name="GeneratedVariablePlanFailed" xml:space="preserve">
+    <value>Failed to generate variable plan</value>
+  </data>
+  <data name="GeneratedVariablePlanPreviewConfirmed" xml:space="preserve">
+    <value>Váriavel confirmado com sucesso</value>
+  </data>
+  <data name="PendingVariablePlanScheduled" xml:space="preserve">
+    <value>Já existe um plano de váriavel agendado, aguarde</value>
+  </data>
+  <data name="VariablePlanPreviewScheduled" xml:space="preserve">
+    <value>Processamento de váriavel agendado com sucesso</value>
+  </data>
+  <data name="VariablePreviewConfirmed" xml:space="preserve">
+    <value>Apuração do variável confirmada</value>
+  </data>
+  <data name="VariablePreviewGenerated" xml:space="preserve">
+    <value>Prévia do variável gerada com sucesso</value>
+  </data>
+  <data name="VariablePreviewGeneratedWithoutItems" xml:space="preserve">
+    <value>Prévia do variável gerada sem items</value>
+  </data>
+  <data name="VariablePreviewScheduled" xml:space="preserve">
+    <value>Prévia do variável agendada, você será notificado(a) por email quando o processo finalizar</value>
+  </data>
+  <data name="VariableProcessingFinished" xml:space="preserve">
+    <value>Processamento da prévia do variável finalizado</value>
+  </data>
+  <data name="VariableProcessingFinishedEmail" xml:space="preserve">
+    <value>O processamento do variável finalizou</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>Data pedido</value>
+  </data>
+  <data name="VariableValue" xml:space="preserve">
+    <value>Valor do variável</value>
+  </data>
+  <data name="M3UnexpectedError" xml:space="preserve">
+    <value>Falha inesperada na recuperação de informações do M3</value>
+  </data>
+  <data name="VariableBaseValueFormula" xml:space="preserve">
+    <value>Fórmula valor base</value>
+  </data>
+  <data name="VariableBaseValueFormulaPrepared" xml:space="preserve">
+    <value>Fórmula valor base preparada</value>
+  </data>
+  <data name="VariablePaymentFormula" xml:space="preserve">
+    <value>Fórmula % pagamento</value>
+  </data>
+  <data name="VariablePaymentFormulaPrepared" xml:space="preserve">
+    <value>Fórmula % pagamento preparada</value>
+  </data>
+  <data name="DueDateLabel" xml:space="preserve">
+    <value>Data vencimento</value>
+  </data>
+  <data name="BusinessRequired" xml:space="preserve">
+    <value>Informe o negócio</value>
+  </data>
+  <data name="CantPermanentTransferTemporaryTransfer" xml:space="preserve">
+    <value>Não é possível transferir permanentemente a partir de uma transferência temporária</value>
+  </data>
+  <data name="CantTransferToSameUser" xml:space="preserve">
+    <value>Não é possível transferir para o mesmo usuário</value>
+  </data>
+  <data name="FromUserRequired" xml:space="preserve">
+    <value>Informe o usuário de origem</value>
+  </data>
+  <data name="PermanentTransferFailed" xml:space="preserve">
+    <value>Permanent transfer failed due to unexpected exception</value>
+  </data>
+  <data name="PermanentTransferFinishedSuccessfully" xml:space="preserve">
+    <value>Transferência permanente finalizada com sucesso, {0} registros transferidos</value>
+  </data>
+  <data name="ToUserRequired" xml:space="preserve">
+    <value>Informe o usuário de destino</value>
+  </data>
+  <data name="InvalidTransferDates" xml:space="preserve">
+    <value>Período de transferência inválido</value>
+  </data>
+  <data name="CantEditApprovementTransfer" xml:space="preserve">
+    <value>Não é permitido editar uma transferência de aprovação</value>
+  </data>
+  <data name="MonthRequired" xml:space="preserve">
+    <value>Informe o mês</value>
+  </data>
+  <data name="ProcessingRewards" xml:space="preserve">
+    <value>Processando premiações</value>
+  </data>
+  <data name="ReadPaymentsFailed" xml:space="preserve">
+    <value>Failed to read payments from M3</value>
+  </data>
+  <data name="CustomerCodeRequired" xml:space="preserve">
+    <value>Informe o código do cliente</value>
+  </data>
+  <data name="PaymentNumberRequired" xml:space="preserve">
+    <value>Informe o número da duplicata</value>
+  </data>
+  <data name="PaymentsNotFoundForCustomer" xml:space="preserve">
+    <value>Pagamentos não encontrados para esse cliente</value>
+  </data>
+  <data name="PaymentYearRequired" xml:space="preserve">
+    <value>Informe o ano da duplicata</value>
+  </data>
+  <data name="CanceledPayment" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="OverduePayment" xml:space="preserve">
+    <value>Vencido</value>
+  </data>
+  <data name="PartiallyPaid" xml:space="preserve">
+    <value>Pago parcial</value>
+  </data>
+  <data name="PaymentDue" xml:space="preserve">
+    <value>A vencer</value>
+  </data>
+  <data name="TotallyPaid" xml:space="preserve">
+    <value>Pago total</value>
+  </data>
+  <data name="FederationUnitRequired" xml:space="preserve">
+    <value>Informe o estado</value>
+  </data>
+  <data name="ProhibitedDeliveryDateFacilityIdRequired" xml:space="preserve">
+    <value>ID da instalação é obrigatório</value>
+  </data>
+  <data name="ProhibitedDeliveryDateRequired" xml:space="preserve">
+    <value>Data é obrigatória</value>
+  </data>
+  <data name="BlockedDeliveryDate" xml:space="preserve">
+    <value>A data de entrega selecionada é uma data bloqueada</value>
+  </data>
+  <data name="AccountingDate" xml:space="preserve">
+    <value>Data pagamento</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>Data nota</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Nota fiscal</value>
+  </data>
+  <data name="MovementValue" xml:space="preserve">
+    <value>Valor movimento</value>
+  </data>
+  <data name="PaymentPaidValue" xml:space="preserve">
+    <value>Valor pago</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="InvoiceValue" xml:space="preserve">
+    <value>Valor nota</value>
+  </data>
+  <data name="Legacy" xml:space="preserve">
+    <value>Legado</value>
+  </data>
+  <data name="CR_Adjustments" xml:space="preserve">
+    <value>AJUSTES</value>
+  </data>
+  <data name="CR_Analytical" xml:space="preserve">
+    <value>Analítico</value>
+  </data>
+  <data name="CR_BaseValue" xml:space="preserve">
+    <value>VL FOB</value>
+  </data>
+  <data name="CR_AgroupmentCommissionsLabel" xml:space="preserve">
+    <value>TOTAL DE COMISSÕES</value>
+  </data>
+  <data name="CR_Commission" xml:space="preserve">
+    <value>COMISSÃO</value>
+  </data>
+  <data name="CR_CommissionPercentage" xml:space="preserve">
+    <value>% COM.</value>
+  </data>
+  <data name="CR_CommissionTotal" xml:space="preserve">
+    <value>COM. TOTAL</value>
+  </data>
+  <data name="CR_Customer" xml:space="preserve">
+    <value>CLIENTE</value>
+  </data>
+  <data name="CR_Date" xml:space="preserve">
+    <value>DATA</value>
+  </data>
+  <data name="CR_Description" xml:space="preserve">
+    <value>DESCRIÇÃO</value>
+  </data>
+  <data name="CR_Detailed" xml:space="preserve">
+    <value>Detalhado</value>
+  </data>
+  <data name="CR_Discounted" xml:space="preserve">
+    <value>DESCONTADA</value>
+  </data>
+  <data name="CR_DueDate" xml:space="preserve">
+    <value>VENCIMENTO</value>
+  </data>
+  <data name="CR_Invoice" xml:space="preserve">
+    <value>NOTA</value>
+  </data>
+  <data name="CR_InvoiceDate" xml:space="preserve">
+    <value>DT FAT.</value>
+  </data>
+  <data name="CR_InvoicedQuantity" xml:space="preserve">
+    <value>QTD FAT.</value>
+  </data>
+  <data name="CR_InvoicedValue" xml:space="preserve">
+    <value>VL FAT.</value>
+  </data>
+  <data name="CR_InvoicedWeight" xml:space="preserve">
+    <value>TOT. FAT.(KG)</value>
+  </data>
+  <data name="CR_Item" xml:space="preserve">
+    <value>ITEM</value>
+  </data>
+  <data name="CR_NegotiatedPrice" xml:space="preserve">
+    <value>PREÇO NEG.</value>
+  </data>
+  <data name="CR_Order" xml:space="preserve">
+    <value>PEDIDO</value>
+  </data>
+  <data name="CR_OrderValue" xml:space="preserve">
+    <value>VL PED.</value>
+  </data>
+  <data name="CR_OrderWeight" xml:space="preserve">
+    <value>TOTAL(KG)</value>
+  </data>
+  <data name="CR_PaidValue" xml:space="preserve">
+    <value>VL PAGO</value>
+  </data>
+  <data name="CR_PaymentDate" xml:space="preserve">
+    <value>PAGAMENTO</value>
+  </data>
+  <data name="CR_PaymentNumber" xml:space="preserve">
+    <value>DUPLICATA</value>
+  </data>
+  <data name="CR_PaymentValue" xml:space="preserve">
+    <value>VALOR</value>
+  </data>
+  <data name="CR_Pending" xml:space="preserve">
+    <value>PENDENTE</value>
+  </data>
+  <data name="CR_Quantity" xml:space="preserve">
+    <value>QTD</value>
+  </data>
+  <data name="CR_Recieved" xml:space="preserve">
+    <value>RECEBIDA</value>
+  </data>
+  <data name="CR_Refund" xml:space="preserve">
+    <value>REEMBOLSO</value>
+  </data>
+  <data name="CR_RewardsAndCampaign" xml:space="preserve">
+    <value>PREMIAÇÕES E CAMPANHAS</value>
+  </data>
+  <data name="CR_RewardsLabel" xml:space="preserve">
+    <value>TOTAL DE PREMIAÇÕES E CAMPANHAS</value>
+  </data>
+  <data name="CR_SubTotals" xml:space="preserve">
+    <value>SUB TOTAL</value>
+  </data>
+  <data name="CR_Synthetic" xml:space="preserve">
+    <value>Sintético</value>
+  </data>
+  <data name="CR_TotalCommissions" xml:space="preserve">
+    <value>VALOR TOTAL DE COMISSÕES</value>
+  </data>
+  <data name="CR_TotalNetValue" xml:space="preserve">
+    <value>TOTAL LIQUÍDO</value>
+  </data>
+  <data name="CR_TotalReportValue" xml:space="preserve">
+    <value>TOTAL DO RELATÓRIO</value>
+  </data>
+  <data name="CR_TotalRewards" xml:space="preserve">
+    <value>VALOR TOTAL DE PREMIAÇÕES, AJUSTES E CAMPANHAS</value>
+  </data>
+  <data name="CR_TotalValue" xml:space="preserve">
+    <value>VALOR TOTAL</value>
+  </data>
+  <data name="CR_Type" xml:space="preserve">
+    <value>TIPO</value>
+  </data>
+  <data name="CR_Value" xml:space="preserve">
+    <value>VALOR</value>
+  </data>
+  <data name="PaymentMethodBlocked" xml:space="preserve">
+    <value>Forma de pagamento requer aprovação</value>
+  </data>
+  <data name="PaymentMethodLabel" xml:space="preserve">
+    <value>Forma de pagamento</value>
+  </data>
+  <data name="YouCantCopyOrderAnotherUser" xml:space="preserve">
+    <value>Você não pode copiar pedidos de outro usuário</value>
+  </data>
+  <data name="DraftNumberLabel" xml:space="preserve">
+    <value>O número do rascunho é:</value>
+  </data>
+  <data name="DraftSavedSuccessfully" xml:space="preserve">
+    <value>Rascunho salvo com sucesso</value>
+  </data>
+  <data name="ReversalFrom" xml:space="preserve">
+    <value>Estorno por {0} TON ({1} ~ {2}) de produtos de  {3} - {4}: {5}</value>
+  </data>
+  <data name="VendorCodeLabel" xml:space="preserve">
+    <value>Código representante</value>
+  </data>
+  <data name="GeneralLabel" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="TotalOrdersLabel" xml:space="preserve">
+    <value>Número total de pedidos: {0}</value>
+  </data>
+  <data name="PreviousAdjustmentSuccess" xml:space="preserve">
+    <value>Ajuste prévio salvo com sucesso</value>
+  </data>
+  <data name="ConfirmPredefinedMessage" xml:space="preserve">
+    <value>Mensagem salva com sucesso</value>
+  </data>
+  <data name="CantEditGeneratedCommission" xml:space="preserve">
+    <value>Não é permitido alterar a mensagem no status atual</value>
+  </data>
+  <data name="CannotDeletePreviousAdjustment" xml:space="preserve">
+    <value>Você não pode deletar o ajuste prévio, o mesmo está vinculado a uma comissão</value>
+  </data>
+  <data name="UsedFor" xml:space="preserve">
+    <value>Linha usada para</value>
+  </data>
+  <data name="OrderSentToApproveNegativeManagerialMargin" xml:space="preserve">
+    <value>O pedido foi enviado para aprovação superior devido a margem gerencial negativa</value>
+  </data>
+  <data name="HasSentToHigherDueNegativeManagerialMargin" xml:space="preserve">
+    <value>foi enviado para aprovação superior devido a margem gerencial negativa</value>
+  </data>
+  <data name="MinimumOrderValue" xml:space="preserve">
+    <value>Valor mínimo não atingido</value>
+  </data>
+  <data name="ExportHierarchicalMatrix" xml:space="preserve">
+    <value>MatrizHierarquica</value>
+  </data>
+  <data name="ProhibitedDeliveryDateAlreadyRegistered" xml:space="preserve">
+    <value>Data proibida já registrada para essa instalação</value>
+  </data>
+  <data name="ProhibitedDeliveryDateCantBePastDate" xml:space="preserve">
+    <value>A data proibida não pode ser uma data do passado</value>
+  </data>
+  <data name="VehicleAlreadyRegistered" xml:space="preserve">
+    <value>Já existe um veículo registrado com essa descrição</value>
+  </data>
+  <data name="DeleteOrderFromLoggedUserFailed" xml:space="preserve">
+    <value>Você não pode excluir o pedido que não pertence ao seu usuário</value>
+  </data>
+  <data name="DeleteFailedFromOrder" xml:space="preserve">
+    <value>Não foi possivel remover o pedido devido ao status do mesmo,  entre em contato com o Customer Service para mais informações</value>
+  </data>
+  <data name="CantMixLoadFacilities" xml:space="preserve">
+    <value>Não é permitido adicionar instalações diferentes a mesma carga de pedidos</value>
+  </data>
+  <data name="UserRoleRoleNotFound" xml:space="preserve">
+    <value>PerfilUsuário perfil não encontrado</value>
+  </data>
+  <data name="UserRoleUserNotFound" xml:space="preserve">
+    <value>PerfilUsuário usuário não encontrado</value>
+  </data>
+  <data name="UserRoleAlreadyRegistered" xml:space="preserve">
+    <value>Perfil para o Usuário já está registrado</value>
+  </data>
+  <data name="UserRoleRoleIdRequired" xml:space="preserve">
+    <value>ID do perfil requerido</value>
+  </data>
+  <data name="UserRoleUserIdRequired" xml:space="preserve">
+    <value>ID do Usuário requerido</value>
+  </data>
+  <data name="CantValidateLoadWithoutDrafts" xml:space="preserve">
+    <value>Não é possível validar uma carga sem rascunhos</value>
+  </data>
+  <data name="SelectedVehicleDoesntCarryTheLoadWeight" xml:space="preserve">
+    <value>O veículo selecionado não comporta o peso da carga. Veículo de {0} KG a {1} KG, Carga {2} KG.</value>
+  </data>
+  <data name="DraftDoesntHaveItems" xml:space="preserve">
+    <value>O rascunho {0} não possui items</value>
+  </data>
+  <data name="CantDeleteAndKeepANotPendingLoad" xml:space="preserve">
+    <value>Não é permitido remover e manter uma carga com status diferente de pendente</value>
+  </data>
+  <data name="CantDeleteConfirmedLoad" xml:space="preserve">
+    <value>Não é permitido remover uma carga confirmada</value>
+  </data>
+  <data name="LoadWaitingForApproval" xml:space="preserve">
+    <value>Carga aguardando aprovação</value>
+  </data>
+  <data name="FacilityIdRequired" xml:space="preserve">
+    <value>ID da instalação é obrigatório</value>
+  </data>
+  <data name="CustomerManagerNotDefined" xml:space="preserve">
+    <value>O cliente não possui um gestor atrelado</value>
+  </data>
+  <data name="OrderItemBusinessRequired" xml:space="preserve">
+    <value>O negócio do item é obrigatório</value>
+  </data>
+  <data name="ErrorParameter" xml:space="preserve">
+    <value>Erro ao buscar Parametros da empresa</value>
+  </data>
+  <data name="BlockedFunctionality" xml:space="preserve">
+    <value>Essa funcionalidade foi temporariamente desabilitada pela administração do sistema</value>
+  </data>
+  <data name="ErrorFetchingHierarchy" xml:space="preserve">
+    <value>Erro ao encontrar hierarquia</value>
+  </data>
+  <data name="AtLeastOneUserIsRequired" xml:space="preserve">
+    <value>Pelo menos um usuário é necessário</value>
+  </data>
+  <data name="PreCustomerCategoryRequired" xml:space="preserve">
+    <value>Informe a classificação ABC do cliente</value>
+  </data>
+  <data name="ManagerCantHaveMoreThanOneBusiness" xml:space="preserve">
+    <value>Gerentes só podem estar vinculados a um negócio</value>
+  </data>
+  <data name="UsersOnThisTypeAlreadyHaveMoreThanOneBusiness" xml:space="preserve">
+    <value>Um ou mais usuários cadastrados nesse tipo já possuem mais de um negócio vinculado: {0}</value>
+  </data>
+  <data name="BilledAmount" xml:space="preserve">
+    <value>Valor faturado</value>
+  </data>
+  <data name="BilledCommission" xml:space="preserve">
+    <value>Comissão faturada</value>
+  </data>
+  <data name="BilledQuantity" xml:space="preserve">
+    <value>Quantidade faturada</value>
+  </data>
+  <data name="BilledWeight" xml:space="preserve">
+    <value>Peso faturado</value>
+  </data>
+  <data name="DifferenceBetweenSaleAndInvoiced" xml:space="preserve">
+    <value>Diferença entre venda e faturado</value>
+  </data>
+  <data name="PendingCommission" xml:space="preserve">
+    <value>Comissão pendente</value>
+  </data>
+  <data name="RefundedCommission" xml:space="preserve">
+    <value>Reembolsada</value>
+  </data>
+  <data name="ReversedCommission" xml:space="preserve">
+    <value>Estornada</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="InvalidFields" xml:space="preserve">
+    <value>Os campos informados são inválidos</value>
+  </data>
+  <data name="OrderTypeDescriptionAlreadyRegistered" xml:space="preserve">
+    <value>Descrição para este OrderType já existe</value>
+  </data>
+  <data name="OrderTypeTransactionReasonAlreadyRegistered" xml:space="preserve">
+    <value>Tipo de venda já existente para este tipo de pedido</value>
+  </data>
+  <data name="TransactionReasonRequired" xml:space="preserve">
+    <value>Tipos de venda requerido</value>
+  </data>
+  <data name="IsDefaultAlreadyExists" xml:space="preserve">
+    <value>Pedido padrão já existente para esta empresa</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="BeginDateIsGreaterEndDate" xml:space="preserve">
+    <value>Data inicial não pode ser maior que a data final</value>
+  </data>
+  <data name="DatesCannotBeNull" xml:space="preserve">
+    <value>Datas de início e fim são obrigatórias</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Resumo</value>
+  </data>
+  <data name="AcceleratedInvoicedWeightKg" xml:space="preserve">
+    <value>Peso acelerado</value>
+  </data>
+  <data name="ItemDescription" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="ProRataValue" xml:space="preserve">
+    <value>Valor duplicata prorata</value>
+  </data>
+  <data name="OrderTypeCodeAlreadyRegistered" xml:space="preserve">
+    <value>Código do tipo de pedido já registrado</value>
+  </data>
+  <data name="LoggedUserCantApproveNegativeMargin" xml:space="preserve">
+    <value>Seu usuário não pode aprovar pedidos com margem negativa</value>
+  </data>
+  <data name="UserCantApproveOrdersOrDoesntHaveBusinesses" xml:space="preserve">
+    <value>Seu usário não pode aprovar pedidos ou não está vinculado a nenhum negócio</value>
+  </data>
+  <data name="YouDontHavePermissionToVerifyThatOrder" xml:space="preserve">
+    <value>Você não tem permissões para verificar esse pedido</value>
+  </data>
+  <data name="LoadWaitingForApprovalBy" xml:space="preserve">
+    <value>A carga está aguardando aprovação de {0}</value>
+  </data>
+  <data name="LoadApproved" xml:space="preserve">
+    <value>Todos os pedidos da carga foram aprovados</value>
+  </data>
+  <data name="LoadOrderConfirmedAndWaitingForOtherOrders" xml:space="preserve">
+    <value>O pedido foi confirmado, o pedido continuará aguardando a aprovação do restante da carga</value>
+  </data>
+  <data name="LoadReproved" xml:space="preserve">
+    <value>Todos os pedidos da carga foram reprovados</value>
+  </data>
+  <data name="OrderNumberChangedManuallyAtM3" xml:space="preserve">
+    <value>O pedido {0} foi alterado manualmente no M3. Por gentileza, verifique.</value>
+  </data>
+  <data name="CantDeleteNotPendingLoad" xml:space="preserve">
+    <value>Não é permitido deletar uma carga com status diferente de pendente</value>
+  </data>
+  <data name="UserCanOnlyHaveOneDefaultBusiness" xml:space="preserve">
+    <value>O usuário só pode ter um negócio padrão</value>
+  </data>
+  <data name="CustomerManagerDoesntHaveDefaultBusiness" xml:space="preserve">
+    <value>O gerente do cliente não possui um negócio padrão, por gentileza contate o  Customer Service</value>
+  </data>
+  <data name="CantDeleteConfirmedDraft" xml:space="preserve">
+    <value>Não é permitido apagar um rascunho confirmado</value>
+  </data>
+  <data name="InvalidManagerConfiguration" xml:space="preserve">
+    <value>O seu cadastro está com configurações de negócio ausentes, solicite a correção ao setor de cadastro</value>
+  </data>
+  <data name="CantPermanentTransferWithoutBusiness" xml:space="preserve">
+    <value>Não é permitido realizar uma transferência permanente sem especificar o negócio</value>
+  </data>
+  <data name="M3IdentificationMissingForYourUser" xml:space="preserve">
+    <value>O M3 Id está ausente em seu usuário, informe o setor de cadastro</value>
+  </data>
+  <data name="ItemBusinessNotFound" xml:space="preserve">
+    <value>O item {0} não pertence a nenhum negócio</value>
+  </data>
+  <data name="PreCustomerAverageAccommodation" xml:space="preserve">
+    <value>Informe a média de alojamentos da avicultura de corte</value>
+  </data>
+  <data name="PreCustomerAverageAquaCulture" xml:space="preserve">
+    <value>Informe a média de produção mensal da aquicultura</value>
+  </data>
+  <data name="PreCustomerAverageCrustaceanCulture" xml:space="preserve">
+    <value>Informe a média da área de viveiros da carnicicultura</value>
+  </data>
+  <data name="PreCustomerAverageCuttingCattle" xml:space="preserve">
+    <value>Informe a média de cabeças da bovinocultura de corte</value>
+  </data>
+  <data name="PreCustomerAverageDairyCattle" xml:space="preserve">
+    <value>Informe a média de cabeças da bovinocultura de leite</value>
+  </data>
+  <data name="PreCustomerBankReferenceInvalid" xml:space="preserve">
+    <value>Existem referências bancárias inválidas, verifique</value>
+  </data>
+  <data name="PreCustomerBankReferenceRequired" xml:space="preserve">
+    <value>Informe ao menos uma referência bancária</value>
+  </data>
+  <data name="PreCustomerMonthlyInvoicingInvalid" xml:space="preserve">
+    <value>Informe a média de faturamento mensal da revenda</value>
+  </data>
+  <data name="PreCustomerOthersInvalid" xml:space="preserve">
+    <value>Informe o campo outros dados</value>
+  </data>
+  <data name="PreCustomerSquadInvalid" xml:space="preserve">
+    <value>Informe a média de plantéis da avicultura de postura</value>
+  </data>
+  <data name="PreCustomerSwineBreedingInvalid" xml:space="preserve">
+    <value>Informe a média de matrizes da suinocultura</value>
+  </data>
+  <data name="MissingUserRole" xml:space="preserve">
+    <value>O seu usuário não possui nenhum perfil de acesso cadastrado, contate o setor de cadastro</value>
+  </data>
+  <data name="ExportOrdersFailed" xml:space="preserve">
+    <value>Failed to export orders</value>
+  </data>
+  <data name="OrdersFromTo" xml:space="preserve">
+    <value>Pedidos de {0} à {1}</value>
+  </data>
+  <data name="BlockedOrdersFromTo" xml:space="preserve">
+    <value>Pedidos bloqueados de {0} à {1}</value>
+  </data>
+  <data name="WaitingForApprovalNegativeMargin" xml:space="preserve">
+    <value>Aguardando aprovação de margem negativa</value>
+  </data>
+  <data name="FileExtensionRequired" xml:space="preserve">
+    <value>A extensão do arquivo é obrigatória</value>
+  </data>
+  <data name="FileNameRequired" xml:space="preserve">
+    <value>O nome do arquivo é obrigatório</value>
+  </data>
+  <data name="FileStringRequired" xml:space="preserve">
+    <value>O arquivo é obrigatório</value>
+  </data>
+  <data name="FileTypeRequired" xml:space="preserve">
+    <value>O tipo do arquivo é obrigatório</value>
+  </data>
+  <data name="LoadFileFailed" xml:space="preserve">
+    <value>Failed to load file</value>
+  </data>
+  <data name="ExpectedHeaderDiverged" xml:space="preserve">
+    <value>Os cabeçalhos informados divergem dos cabeçalhos esperados. Por favor, não altere os cabeçalhos do modelo exportado</value>
+  </data>
+  <data name="FailedToConvertCommissionBaseValue" xml:space="preserve">
+    <value>Falha ao converter o valor base de comissão</value>
+  </data>
+  <data name="FailedToConvertCommissionPercentage" xml:space="preserve">
+    <value>Falha ao converter o percentual de comissão</value>
+  </data>
+  <data name="FailedToConvertDraftItemId" xml:space="preserve">
+    <value>Falha ao converter ID do item do rascunho</value>
+  </data>
+  <data name="FailedToConvertSalesQuality" xml:space="preserve">
+    <value>Falha ao converter a qualidade de venda</value>
+  </data>
+  <data name="InvalidFileExtension" xml:space="preserve">
+    <value>A extensão do arquivo é inválida</value>
+  </data>
+  <data name="ThereAreRecordsWithErrorInTheWorksheet" xml:space="preserve">
+    <value>Existem linhas com erro na planilha carregada</value>
+  </data>
+  <data name="WorksheetLoadSuccessful" xml:space="preserve">
+    <value>Planilha carregada com sucesso, todos os itens foram atualizados</value>
+  </data>
+  <data name="BusinessCodeDoesntExists" xml:space="preserve">
+    <value>O código de negócio {0} não existe</value>
+  </data>
+  <data name="InvalidItemTransactionReason" xml:space="preserve">
+    <value>O(s) item(ns) {0} possui um tipo de venda inválido. Edite e inclua novamente o(s) item(ns) para alterar o tipo de venda para {1}</value>
+  </data>
+  <data name="SalesmanNotFound" xml:space="preserve">
+    <value>O vendedor {0} não foi localizado no sistema</value>
+  </data>
+  <data name="CantLoadUserAssortment" xml:space="preserve">
+    <value>Ocorreu um falha ao validar o seu sortimento de produtos, tente novamente mais tarde</value>
+  </data>
+  <data name="VariableReportEmailsSentSuccessfully" xml:space="preserve">
+    <value>Emails do variável enviados com sucesso</value>
+  </data>
+  <data name="VariableReportMessage" xml:space="preserve">
+    <value>Prezado {0}, segue anexo a planilha do variável</value>
+  </data>
+  <data name="VariableReportTitle" xml:space="preserve">
+    <value>Remuneração variável</value>
+  </data>
+  <data name="TheUserIsntAllowedToUseAnotherCurrency" xml:space="preserve">
+    <value>O usuário do pedido não tem permissão para utilizar outra moeda</value>
+  </data>
+  <data name="M3ConnectionError" xml:space="preserve">
+    <value>Falha ao estabelecer uma conexão com o servidor M3. Por favor, verifique se a ação atual foi concluída com sucesso</value>
+  </data>
+  <data name="OrderHasItemsWhoTheBusinessDoesntAllowOtherCurrency" xml:space="preserve">
+    <value>Os items {0} devem ser removidos do pedido pois seus respectivos negócios não permitem a venda dos mesmos em outra moeda</value>
+  </data>
+  <data name="MinimumOrderValueInvalid" xml:space="preserve">
+    <value>Valor mínimo do pedido inválido</value>
+  </data>
+  <data name="SalesmanIdRequired" xml:space="preserve">
+    <value>Selecione o representante</value>
+  </data>
+  <data name="RescissionScheduledSuccessfully" xml:space="preserve">
+    <value>O processamento do cálculo de rescisão foi agendado com sucesso</value>
+  </data>
+  <data name="FailedToProcess" xml:space="preserve">
+    <value>Failed to process</value>
+  </data>
+  <data name="NotInvoiced" xml:space="preserve">
+    <value>Não faturado</value>
+  </data>
+  <data name="RescissionReportSubject" xml:space="preserve">
+    <value>Cálculo de rescisão - Id {0}</value>
+  </data>
+  <data name="ExportRescissionsFailed" xml:space="preserve">
+    <value>Falha ao exportar rescisão</value>
+  </data>
+  <data name="NegativeManagerialMarginMaximumApprovementValueInvalid" xml:space="preserve">
+    <value>Valor máximo de aprovação de margem negativa inválido</value>
+  </data>
+  <data name="ManagerialMarginApprovement" xml:space="preserve">
+    <value>Aprovação de margem</value>
+  </data>
+  <data name="DoNotHavePermissionToChangeOrderType" xml:space="preserve">
+    <value>Você não tem permissão para inserir pedidos diferentes de "B01"</value>
+  </data>
+  <data name="OrderTypeLabel" xml:space="preserve">
+    <value>Tipo de pedido</value>
+  </data>
+  <data name="AccountAndOrderDeliveryAddress" xml:space="preserve">
+    <value>Endereço de entrega</value>
+  </data>
+  <data name="DeliveryToLabel" xml:space="preserve">
+    <value>Entregar para</value>
+  </data>
+  <data name="ReturnOrCanceled" xml:space="preserve">
+    <value>Cancelamento/Devolução</value>
+  </data>
+  <data name="OrderTypeBlocked" xml:space="preserve">
+    <value>A entrada de pedidos diferentes de B01 está temporariamente desativada</value>
+  </data>
+  <data name="FacilityDailyCapacityOverloaded" xml:space="preserve">
+    <value>A capacidade de produção da instalação para essa data foi excedida, selecione outra data</value>
+  </data>
+  <data name="OrderHasItemsWithInvalidDiscount" xml:space="preserve">
+    <value>O pedido possui itens que o desconto excede 100%, por favor, remova os itens e inclua novamente</value>
+  </data>
+  <data name="BodyRequired" xml:space="preserve">
+    <value>Informe o corpo</value>
+  </data>
+  <data name="LimitDateRequired" xml:space="preserve">
+    <value>Informe a data limite</value>
+  </data>
+  <data name="TitleRequired" xml:space="preserve">
+    <value>Informe o título</value>
+  </data>
+  <data name="CouldNotEstablishConnection" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com os servidores do M3, por favor feche o sistema e tente novamente</value>
+  </data>
+  <data name="DoNotHavePermissionToChangeCurrency" xml:space="preserve">
+    <value>Ainda não é permitido inserir pedidos em outra moeda</value>
+  </data>
+  <data name="ExportUserRoles" xml:space="preserve">
+    <value>PerfisUsuarios</value>
+  </data>
+  <data name="OnlySysAdminsCanDoThat" xml:space="preserve">
+    <value>Apenas administradores tem permissão para utilizar essa funcionalidade</value>
+  </data>
+  <data name="ConnectionClosedBySysAdmin" xml:space="preserve">
+    <value>Sua conexão foi finalizada por um administrador do sistema</value>
+  </data>
+  <data name="MessageRequired" xml:space="preserve">
+    <value>Informe a messagem</value>
+  </data>
+  <data name="StatusRequired" xml:space="preserve">
+    <value>Informe o status</value>
+  </data>
+  <data name="ItemDoesntHaveBusinessDefined" xml:space="preserve">
+    <value>O produto selecionado não possui um negócio definidio, não é possível adiciona-lo ao pedido</value>
+  </data>
+  <data name="ProductDoesntReachTheFacilityMinimumBeat" xml:space="preserve">
+    <value>O produto não atingiu o peso mínimo de {0} KG para produtos customizados nessa instalação</value>
+  </data>
+  <data name="SwitchServiceStatusFailed" xml:space="preserve">
+    <value>Failed to switch service status</value>
+  </data>
+  <data name="FailedToChangeServiceStatus" xml:space="preserve">
+    <value>Falha ao alterar status do serviço</value>
+  </data>
+  <data name="OrderBlockedDueNegativeManagerialMargin" xml:space="preserve">
+    <value>Bloqueado para aprovação de margem</value>
+  </data>
+  <data name="DaysOfPayment" xml:space="preserve">
+    <value>Prazo médio</value>
+  </data>
+  <data name="ExportFileFailed" xml:space="preserve">
+    <value>Failed to export file</value>
+  </data>
+  <data name="MovementDate" xml:space="preserve">
+    <value>Data de movimento</value>
+  </data>
+  <data name="InvalidWorksheet" xml:space="preserve">
+    <value>A planilha carregada não contem ao menos a coluna chave (cinza) e uma coluna de dados (amarela). Por favor verifique</value>
+  </data>
+  <data name="OrderHasUnregisteredInterest" xml:space="preserve">
+    <value>O pedido possui encargos não registrados, não é permitido a confirmação</value>
+  </data>
+  <data name="OrderHasUnregisteredTransport" xml:space="preserve">
+    <value>O pedido possui uma zona de frete não registrada, não é permitido a confirmação</value>
+  </data>
+  <data name="ProductBlacklistAlreadyRegistered" xml:space="preserve">
+    <value>Produto já adicionado a lista desse usuário</value>
+  </data>
+  <data name="CodeRequired" xml:space="preserve">
+    <value>Código é obrigatório</value>
+  </data>
+  <data name="ValidFromRequired" xml:space="preserve">
+    <value>Data de ínicio é obrigatória</value>
+  </data>
+  <data name="CantFindLastPriceListToRepeat" xml:space="preserve">
+    <value>Não existem tabelas para {0} - {1} anteriores a data da lista informada, não é possível repetir a última</value>
+  </data>
+  <data name="EveryTableNeedsAFileOrToRepeatTheLastOne" xml:space="preserve">
+    <value>Todas as tabelas precisam de um arquivo ou de repetir a anterior</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Arquivo não encontrado</value>
+  </data>
+  <data name="TableHasMissingColumns" xml:space="preserve">
+    <value>A tabela {0} - {1} não possui as colunas todas as colunas obrigatórias [{2}]</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CustomLabel" xml:space="preserve">
+    <value>Customizado</value>
+  </data>
+  <data name="LineLabel" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="PriceListListValidFromAlreadyRegistered" xml:space="preserve">
+    <value>Já existe uma lista registrada com essa data de ínicio</value>
+  </data>
+  <data name="Specie" xml:space="preserve">
+    <value>Espécie</value>
+  </data>
+  <data name="FobPriceLabel" xml:space="preserve">
+    <value>PREÇO FOB - À VISTA</value>
+  </data>
+  <data name="PriceListTitle" xml:space="preserve">
+    <value>TABELA DE PREÇOS - TROUW NUTRITION BRASIL</value>
+  </data>
+  <data name="TableLabel" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="ValidFromLabel" xml:space="preserve">
+    <value>Vigência</value>
+  </data>
+  <data name="PriceListBody" xml:space="preserve">
+    <value>Prezado {0} - {1}, segue em anexo o arquivo da tabela de preços com vigência {2}.</value>
+  </data>
+  <data name="PriceListBodySubscription" xml:space="preserve">
+    <value>Prezado, segue em anexo o arquivo da tabela de preços com vigência {0}.</value>
+  </data>
+  <data name="PriceListSubject" xml:space="preserve">
+    <value>Tabela de Preços {0} - {1} | Trouw Nutrition Brasil</value>
+  </data>
+  <data name="ProcessStarted" xml:space="preserve">
+    <value>Processo iniciado com sucesso</value>
+  </data>
+  <data name="ChangingPreCustomerStatusFromTo" xml:space="preserve">
+    <value>Alterando o status do pré-cadastro de {0} para {1}</value>
+  </data>
+  <data name="RedespachoExternalTextRequired" xml:space="preserve">
+    <value>É obrigatório informar uma observação externa de no mínimo {0} caracteres para o redespacho</value>
+  </data>
+  <data name="OrderConfirmedWithWarnings" xml:space="preserve">
+    <value>Atenção! O pedido {0} possui falhas de configuração, por favor entre em contato com a central de atendimento</value>
+  </data>
+  <data name="FacilityAlreadyRegistered" xml:space="preserve">
+    <value>Instalação já registrada</value>
+  </data>
+  <data name="RelationshipAlreadyRegistered" xml:space="preserve">
+    <value>Relacionamento já registrado</value>
+  </data>
+  <data name="PriceListList" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="ValidFrom" xml:space="preserve">
+    <value>Data de ínicio</value>
+  </data>
+  <data name="PreviousAdjustmentBalanceDescription" xml:space="preserve">
+    <value>Ref. saldo negativo no perído de {0} à {1}</value>
+  </data>
+  <data name="FailedToParseBusinessReward" xml:space="preserve">
+    <value>Falha ao processar premiação</value>
+  </data>
+  <data name="InvalidBeginDate" xml:space="preserve">
+    <value>Data de ínicio inválida</value>
+  </data>
+  <data name="InvalidBusinessCode" xml:space="preserve">
+    <value>Codigo do negócio inválido</value>
+  </data>
+  <data name="InvalidEndDate" xml:space="preserve">
+    <value>Data final inválida</value>
+  </data>
+  <data name="InvalidMinimumQuantity" xml:space="preserve">
+    <value>Quantidade mínima inválida</value>
+  </data>
+  <data name="InvalidPaysAfterMinimumQuantity" xml:space="preserve">
+    <value>Valor inválido para a coluna PaysAfterMinimumQuantity</value>
+  </data>
+  <data name="InvalidPaysOverProportion" xml:space="preserve">
+    <value>Valor inválido para a coluna PaysOverProportion</value>
+  </data>
+  <data name="InvalidPaysOverTon" xml:space="preserve">
+    <value>Valor inválido para a coluna PaysOverTon</value>
+  </data>
+  <data name="InvalidPaysPercentageOverCommission" xml:space="preserve">
+    <value>Valor inválido para a coluna PaysPercentageOverCommission</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Valor inválido</value>
+  </data>
+  <data name="CantCopyPreCustomerFromAnotherUser" xml:space="preserve">
+    <value>Não é possível copiar o pré-cadastro de outro usuário</value>
+  </data>
+  <data name="PreCustomerCopiedSuccessfully" xml:space="preserve">
+    <value>Pré-cadastro copiado com sucesso</value>
+  </data>
+  <data name="CustomersABCFromTo" xml:space="preserve">
+    <value>ABC de clientes de {0} à {1}</value>
+  </data>
+  <data name="CustomersSeasonalityFromTo" xml:space="preserve">
+    <value>Sazonalidade de clientes de {0} à {1}</value>
+  </data>
+  <data name="LastPurchases" xml:space="preserve">
+    <value>Últimas compras</value>
+  </data>
+  <data name="SalesFromTo" xml:space="preserve">
+    <value>Vendas de {0} à {1}</value>
+  </data>
+  <data name="Overdues" xml:space="preserve">
+    <value>Inadimplências</value>
+  </data>
+  <data name="ProductsABCFromTo" xml:space="preserve">
+    <value>ABC de produtos de {0} à {1}</value>
+  </data>
+  <data name="ProductsSeasonalityFromTo" xml:space="preserve">
+    <value>Sazonalidade de produtos de {0} à {1}</value>
+  </data>
+  <data name="UsersABCFromTo" xml:space="preserve">
+    <value>ABC de usuários de {0} à {1}</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Nota fiscal</value>
+  </data>
+  <data name="InvoiceMonth" xml:space="preserve">
+    <value>Mês NF</value>
+  </data>
+  <data name="InvoiceYear" xml:space="preserve">
+    <value>Ano NF</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Gerente</value>
+  </data>
+  <data name="NegotiatedPrice" xml:space="preserve">
+    <value>Preço negociado</value>
+  </data>
+  <data name="OrderMonth" xml:space="preserve">
+    <value>Mês pedido</value>
+  </data>
+  <data name="OrderYear" xml:space="preserve">
+    <value>Ano pedido</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="TotalValue" xml:space="preserve">
+    <value>Valor total (Item)</value>
+  </data>
+  <data name="PercentageOfParticipation" xml:space="preserve">
+    <value>% de Partic.</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>Vencimento</value>
+  </data>
+  <data name="LastOrderDate" xml:space="preserve">
+    <value>Data último pedido</value>
+  </data>
+  <data name="MonthsWithoutPurchasing" xml:space="preserve">
+    <value>Meses sem compra</value>
+  </data>
+  <data name="CanceledOrReturned" xml:space="preserve">
+    <value>Cancelado/Devolvido</value>
+  </data>
+  <data name="PurchasedValue" xml:space="preserve">
+    <value>Valor compras</value>
+  </data>
+  <data name="UsersSeasonalityFromTo" xml:space="preserve">
+    <value>Sazonalidade de usuários de {0} à {1}</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Marca</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>Atualizado com sucesso</value>
+  </data>
+  <data name="UserIsInactive" xml:space="preserve">
+    <value>Usuário desativado</value>
+  </data>
+  <data name="FailedToChangeOrderStatus" xml:space="preserve">
+    <value>Não foi possível aprovar o pedido, por gentileza entre em contato com o customer service</value>
+  </data>
+  <data name="SupplierCodeEmailText" xml:space="preserve">
+    <value>Obrigatóriamente incluir nas observações da NF: Código do Representante {0} / Código de Fornecedor {1}</value>
+  </data>
+  <data name="SupplierCodeLabel" xml:space="preserve">
+    <value>Código de fornecedor {0}</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="Business code" xml:space="preserve">
+    <value>Código negócio</value>
+  </data>
+  <data name="Business name" xml:space="preserve">
+    <value>Descrição negócio</value>
+  </data>
+  <data name="CommissionBaseValue" xml:space="preserve">
+    <value>Valor base comissão</value>
+  </data>
+  <data name="ExternalText" xml:space="preserve">
+    <value>Texto externo</value>
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Encargos</value>
+  </data>
+  <data name="InternalText" xml:space="preserve">
+    <value>Texto interno</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="OrderType" xml:space="preserve">
+    <value>OT</value>
+  </data>
+  <data name="RegisteredBy" xml:space="preserve">
+    <value>Registrado por</value>
+  </data>
+  <data name="TransactionReason" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="Transport" xml:space="preserve">
+    <value>Frete</value>
+  </data>
+  <data name="CannotDeleteThatRescission" xml:space="preserve">
+    <value>Não é permitido deletar esse cálculo</value>
+  </data>
+  <data name="CantCopyUnfinishedPreCustomerRegistration" xml:space="preserve">
+    <value>Não é permitido copiar um pré-cadastro que não está finalizado</value>
+  </data>
+  <data name="FailedToProcessInvoiceFile" xml:space="preserve">
+    <value>Erro ao processar o arquivo {0}: {1}</value>
+  </data>
+  <data name="FileNotCompatibleWithNFe4" xml:space="preserve">
+    <value>Arquivo [{0}] não compatível com a NFe 4.0</value>
+  </data>
+  <data name="InvoiceAlreadyRegistered" xml:space="preserve">
+    <value>CNPJ [{0}] | Fatura [{1}] já cadastrada</value>
+  </data>
+  <data name="InvoiceCustomerNotRegistered" xml:space="preserve">
+    <value>CNPJ [{0}] | Fatura [{1}]: Cliente não cadastrado no M3</value>
+  </data>
+  <data name="InvoiceHeaderNotProcessed" xml:space="preserve">
+    <value>CNPJ [{0}] | Fatura [{1}]: Nota não processado</value>
+  </data>
+  <data name="InvoiceLineNotProcessed" xml:space="preserve">
+    <value>CNPJ [{0}] | Fatura [{1}-{2}]: Linha não processada</value>
+  </data>
+  <data name="ValidaInvoiceXml" xml:space="preserve">
+    <value>CNPJ {0} | Fatura {1} não aprovada</value>
+  </data>
+  <data name="ManuallyBlocked" xml:space="preserve">
+    <value>Bloqueado manualmente</value>
+  </data>
+  <data name="NotUsed" xml:space="preserve">
+    <value>Não utilizado</value>
+  </data>
+  <data name="Received" xml:space="preserve">
+    <value>Recebido</value>
+  </data>
+  <data name="SentToM3" xml:space="preserve">
+    <value>Enviado ao M3</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Atualizado</value>
+  </data>
+  <data name="UpdateWithError" xml:space="preserve">
+    <value>Atualizado com Erro (PPS040 ou Item inexistente)</value>
+  </data>
+  <data name="Validated" xml:space="preserve">
+    <value>Validado pelo M3</value>
+  </data>
+  <data name="HasApproved" xml:space="preserve">
+    <value>foi aprovado</value>
+  </data>
+  <data name="OrderReprovedESales" xml:space="preserve">
+    <value>O pedido se encontrava bloqueado e foi reprovado</value>
+  </data>
+  <data name="BlockedOrderManagerNotificationBody" xml:space="preserve">
+    <value>Clique aqui para visualizar o pedido</value>
+  </data>
+  <data name="BlockedOrderNotificationTitle" xml:space="preserve">
+    <value>Pedido {0} bloqueado</value>
+  </data>
+  <data name="BlockedOrderVendorNotificationBody" xml:space="preserve">
+    <value>Por gentileza, aguarde a aprovação gerencial</value>
+  </data>
+  <data name="CannotEditInvoicesWithStatusGreaterOrEqual50" xml:space="preserve">
+    <value>Não é permitido editar linhas de uma nota com status igual ou superior a 50</value>
+  </data>
+  <data name="CannotEditInvoiceWithoutSupplierCode" xml:space="preserve">
+    <value>Não é permitido editar linhas de uma nota sem código do fornecedor</value>
+  </data>
+  <data name="InvoiceLineNotFound" xml:space="preserve">
+    <value>Linha da nota não encontrada</value>
+  </data>
+  <data name="SupplierWithoutPOs" xml:space="preserve">
+    <value>PO's não cadastradas no M3 para esse fornecedor</value>
+  </data>
+  <data name="SupplierWithoutPOsToBeRegistered" xml:space="preserve">
+    <value>Fornecedor não possui PO's aptas a serem registradas</value>
+  </data>
+  <data name="ValidateInvoiceLineFailed" xml:space="preserve">
+    <value>Validate invoice line failed</value>
+  </data>
+  <data name="InternalCfopIsRequired" xml:space="preserve">
+    <value>Informe o CFOP Interno</value>
+  </data>
+  <data name="InternalCfopNotFound" xml:space="preserve">
+    <value>CFOP Interno não encontrado</value>
+  </data>
+  <data name="InternalCfopRegisteredSuccessfully" xml:space="preserve">
+    <value>CFOP Interno registrado com sucesso</value>
+  </data>
+  <data name="CredentialsNotFound" xml:space="preserve">
+    <value>Suas credenciais expiraram, por gentileza realize o logout e um novo login</value>
+  </data>
+  <data name="InsufficientPrivileges" xml:space="preserve">
+    <value>Você não possui permissões no M3 para realizar essa ação</value>
+  </data>
+  <data name="LineDataChangedSuccessfully" xml:space="preserve">
+    <value>Informações da linha atualizadas com sucesso</value>
+  </data>
+  <data name="LoadAllOrderApproved" xml:space="preserve">
+    <value>Carga aprovada</value>
+  </data>
+  <data name="LoadAllOrderReproved" xml:space="preserve">
+    <value>Carga reprovada</value>
+  </data>
+  <data name="CantDeleteOrderFromLoad" xml:space="preserve">
+    <value>Você não pode deletar um pedido relacionado a uma carga. Por favor, ir para a a tela de carga.</value>
+  </data>
+  <data name="OrderCustomerBlockedCompositeLoad" xml:space="preserve">
+    <value>O cliente está bloqueado, não é possível incluir um pedido para a carga composta</value>
+  </data>
+</root>

@@ -1,0 +1,30 @@
+<div class="full-screen default-padding">
+  <form #f="ngForm" (ngSubmit)="authenticate()">
+    <div class="login-background">
+      <div class="login-box">
+        <div class="login-container">
+          <div class="row">
+            <div class="col-md-12 form-group text-center">
+              <img src="../../assets/images/escrito-logo.png" class="img-logo">
+            </div>
+          </div>
+          <div class="row row-custom">
+            <div class="col-md-12 form-group">
+              <input type="text" class="form-control" placeholder="Login" name="login" [(ngModel)]="entity.login">
+            </div>
+          </div>
+          <div class="row row-custom">
+            <div class="col-md-12 form-group">
+              <input type="password" class="form-control" placeholder="Senha" name="password" [(ngModel)]="entity.password">
+            </div>
+          </div>
+          <div class="row row-custom">
+            <div class="col-md-12 form-group">
+              <button type="submit" class="btn btn-block btn-login">Autenticar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

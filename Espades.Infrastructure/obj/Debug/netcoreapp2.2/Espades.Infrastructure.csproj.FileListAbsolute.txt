@@ -16,3 +16,8 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastru
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\obj\Debug\netcoreapp2.2\Espades.Infrastructure.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Espades.Infrastructure.runtimeconfig.json
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Espades.Infrastructure.runtimeconfig.dev.json
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Infrastructure\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll

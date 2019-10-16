@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+.icone-expand {
+  transition: 1s;
+}
+
+.icone-expand:hover {
+  filter: grayscale(0%) opacity(1);
+  transition-duration: 1s;
+  transform: scale(1.1);
+  z-index: 10;
+}

@@ -1,0 +1,48 @@
+@import "../../variables.scss";
+
+.login-background {
+  background-image: url('../../assets/images/background-login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.login-box {
+  position: relative;
+  top: 120px;
+  padding: 10px;
+}
+
+.login-container {
+  background: white;
+  width: 300px;
+  max-width: 100%;
+  margin: 50px auto;
+  border-radius: 5%;
+}
+
+.btn-login {
+  background-color: $espades-darkorange;
+  color: #fff;
+  height: 39px;
+}
+
+.img-logo {
+  width: 70%;
+}
+
+a {
+  color: #fff;
+}
+
+.row-custom {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}

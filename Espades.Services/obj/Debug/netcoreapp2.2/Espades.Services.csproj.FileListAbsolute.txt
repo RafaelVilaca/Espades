@@ -6,11 +6,14 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Espades.Infrastructure.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Espades.Common.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Espades.Domain.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Espades.Infrastructure.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.csprojAssemblyReference.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.csproj.CoreCompileInputs.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.AssemblyInfoInputs.cache
@@ -18,6 +21,3 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\obj\Debug\netcoreapp2.2\Espades.Services.pdb
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Services\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll

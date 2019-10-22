@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+
+
+// Small devices (phones, 767px and lower)
+@media screen and (max-width: 767px) {
+  .btn-full-on-small {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    width: 100%;
+  }
+
+  .side-bar {
+    min-width: 0px !important;
+  }
+
+  .drop-down-small {
+    width: 89%;
+  }
+
+  .btn-drop-down {
+    width: 40px;
+    height: 34px;
+    padding-top: 3px;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+
+  .btn-include-drop-down {
+    width: 11%;
+  }
+  
+  body .ui-selectbutton .ui-button {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    width: 100%;
+  }
+
+  .display-on-small {
+    display: block;
+  }
+}

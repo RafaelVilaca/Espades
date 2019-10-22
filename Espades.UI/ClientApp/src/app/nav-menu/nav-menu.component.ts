@@ -12,7 +12,6 @@ export class NavMenuComponent implements OnInit {
     private loginService: LoginService) { }
 
   isExpanded = false;
-  loggedUser: string = localStorage.getItem("loggedUser");
 
   collapse() {
     this.isExpanded = false;
@@ -22,8 +21,7 @@ export class NavMenuComponent implements OnInit {
     this.isExpanded = !this.isExpanded;
   }
 
-  ngOnInit() {
-    this.loggedUser = localStorage.getItem("loggedUser");
+  ngOnInit() {  
   }
 
   logout() {

@@ -18,8 +18,17 @@
         }
       },
       "Espades.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "2.2.0.0"
+        },
         "runtime": {
           "Espades.Common.dll": {}
+        },
+        "resources": {
+          "pt-BR/Espades.Common.resources.dll": {
+            "locale": "pt-BR"
+          }
         }
       },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0.0": {
@@ -43,6 +52,22 @@
           "Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Abstractions.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       }
@@ -70,6 +95,16 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Abstractions.Reference/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Localization.Abstractions.Reference/2.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

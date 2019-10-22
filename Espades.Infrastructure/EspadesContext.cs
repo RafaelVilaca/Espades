@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Espades.Domain.Entities;
+using Espades.Infrastructure.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -74,8 +75,8 @@ namespace Espades.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //new AuditConfiguration(modelBuilder.Entity<Audit>());
-            //new BusinessConfiguration(modelBuilder.Entity<Business>());
+            new EnderecoConfiguration(modelBuilder.Entity<Endereco>());
+            new PessoaConfiguration(modelBuilder.Entity<Pessoa>());
 
             foreach (IMutableForeignKey relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {

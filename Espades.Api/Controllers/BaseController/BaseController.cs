@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,7 +12,7 @@ using Espades.Domain.Contracts.Services.Base;
 using Espades.Domain.Entities.Base;
 using AutoMapper;
 
-namespace TrouwNutrition.ESales.Api.Controllers
+namespace Espades.Api.Controllers
 {
     #region Base class
     public abstract class BaseController : Controller

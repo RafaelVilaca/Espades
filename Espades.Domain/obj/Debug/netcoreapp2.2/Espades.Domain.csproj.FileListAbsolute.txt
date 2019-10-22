@@ -5,10 +5,15 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bi
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Common.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csprojAssemblyReference.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.AssemblyInfoInputs.cache
@@ -16,8 +21,3 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\ob
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.pdb
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.dll
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Localization.Abstractions.xml
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll

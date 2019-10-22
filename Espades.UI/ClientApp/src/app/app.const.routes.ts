@@ -12,12 +12,22 @@ import { DespesaComponent } from './despesa/despesa.index.component';
 import { FuncionarioComponent } from './funcionario/funcionario.index.component';
 import { ReservaComponent } from './reserva/reserva.index.component';
 import { SetorComponent } from './setor/setor.index.component';
+import { PessoaDadosComponent } from './pessoa/pessoa-dados/pessoa.component';
+import { MasterComponent } from './_master/master.component';
 
 export const APP_CONST_ROUTES: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'pessoa', component: PessoaComponent },
+  //{ path: 'pessoa', component: PessoaComponent },
+  {
+    path: 'pessoa', component: MasterComponent, data: { url: 'index' },
+    children: [
+      { path: 'index', component: PessoaComponent },
+      { path: 'create', component: PessoaDadosComponent },
+      { path: 'edit/:id', component: PessoaDadosComponent }
+    ]
+  },
   { path: 'produto', component: ProdutoComponent },
   { path: 'patrimonio', component: PatrimonioComponent },
   { path: 'endereco', component: EnderecoComponent },

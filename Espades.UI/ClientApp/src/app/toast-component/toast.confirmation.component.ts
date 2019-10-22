@@ -7,21 +7,21 @@ import { MessageService } from "primeng/api";
     <button *ngIf="label" type="button" (click)="showConfirm()">{{label}}</button>
 
     <p-toast position="center" key="{{key}}" (onClose)="onReject()" [modal]="true" [baseZIndex]="12000">
-    <ng-template let-message pTemplate="message">
-        <div style="text-align: center">
-            <i class="pi {{icon}}" style="font-size: 3em"></i>
-            <h3>{{message.summary}}</h3>
-            <p>{{message.detail}}</p>
-        </div>
-        <div class="ui-g ui-fluid">
-            <div class="ui-g-6">
-                <button type="button" pButton (click)="onConfirm()" label="{{btnTextYes}}" class="ui-button-success"></button>
+        <ng-template let-message pTemplate="message">
+            <div style="text-align: center">
+                <i class="pi {{icon}}" style="font-size: 3em"></i>
+                <h3>{{message.summary}}</h3>
+                <p>{{message.detail}}</p>
             </div>
-            <div class="ui-g-6">
-                <button type="button" pButton (click)="onReject()" label="{{btnTextNo}}" class="ui-button-secondary"></button>
+            <div class="ui-g ui-fluid">
+                <div class="ui-g-6">
+                    <button type="button" pButton (click)="onConfirm()" label="{{btnTextYes}}" class="btn btn-success"></button>
+                </div>
+                <div class="ui-g-6">
+                    <button type="button" pButton (click)="onReject()" label="{{btnTextNo}}" class="btn btn-danger"></button>
+                </div>
             </div>
-        </div>
-    </ng-template>
+        </ng-template>
     </p-toast>
   `
 })

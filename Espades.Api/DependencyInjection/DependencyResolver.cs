@@ -1,10 +1,12 @@
-﻿using Espades.Domain.Contracts.Services.Base;
+﻿using Espades.Domain.Contracts.Services;
+using Espades.Domain.Contracts.Services.Base;
 using Espades.Domain.Contracts.UnitOfWork;
 using Espades.Domain.Repository;
 using Espades.Infrastructure;
 using Espades.Infrastructure.Base.Repositories;
 using Espades.Infrastructure.UnitiesOfWork;
 using Espades.Services.Base;
+using Espades.Services.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +30,9 @@ namespace Espades.Api.DependencyInjection
             services.TryAddTransient<IUnitOfWorkFactory, EFUnitOfWorkFactory>();
 
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.TryAddTransient<IEnderecoService, EnderecoService>();
+            services.TryAddTransient<IPessoaService, PessoaService>();
         }
     }
 }

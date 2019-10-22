@@ -1,3 +1,4 @@
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\appsettings.json
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Api.deps.json
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Api.runtimeconfig.json
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Api.runtimeconfig.dev.json
@@ -11,6 +12,7 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\D
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Infrastructure.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Services.pdb
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\Espades.Common.pdb
+C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.csprojAssemblyReference.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.csproj.CoreCompileInputs.cache
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.RazorAssemblyInfo.cache
@@ -21,4 +23,3 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\D
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\obj\Debug\netcoreapp2.2\Espades.Api.pdb
-C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Api\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll

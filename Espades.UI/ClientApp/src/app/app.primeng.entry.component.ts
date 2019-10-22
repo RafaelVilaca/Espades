@@ -8,6 +8,7 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { ChartModule } from 'primeng/chart';
+import { TableModule } from 'primeng/table';
 
 export const APP_CONST_PRIMENG_COMPONENTS = [
   SidebarModule,
@@ -19,5 +20,6 @@ export const APP_CONST_PRIMENG_COMPONENTS = [
   SelectButtonModule,
   CheckboxModule,
   DynamicDialogModule,
-  ChartModule
+  ChartModule,
+  TableModule
 ];

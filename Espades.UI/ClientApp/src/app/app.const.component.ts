@@ -13,6 +13,10 @@ import { DespesaComponent } from "./despesa/despesa.index.component";
 import { FuncionarioComponent } from "./funcionario/funcionario.index.component";
 import { ReservaComponent } from "./reserva/reserva.index.component";
 import { SetorComponent } from "./setor/setor.index.component";
+import { PessoaDadosComponent } from "./pessoa/pessoa-dados/pessoa.component";
+import { MasterComponent } from "./_master/master.component";
+import { FormFooterComponent } from "./_common/form-footer.component";
+import { LoadingComponent } from "./loading-component/loading.component";
 
 export const APP_CONST_COMPONENTS = [
   ToastConfirmationComponent,
@@ -30,4 +34,8 @@ export const APP_CONST_COMPONENTS = [
   FuncionarioComponent,
   SetorComponent,
   ReservaComponent,
+  MasterComponent,
+  FormFooterComponent,
+  LoadingComponent,
+  PessoaDadosComponent
 ];

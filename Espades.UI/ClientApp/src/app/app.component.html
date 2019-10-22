@@ -1,5 +1,7 @@
-<body>
-  <app-nav-menu></app-nav-menu>
+<body class="background-default">
+  <app-loading></app-loading>
+  <p-toast></p-toast>
+  <app-nav-menu [hidden]="loggedUser == '' || loggedUser == null || loggedUser == undefined"></app-nav-menu>
   <div class="container">
     <router-outlet></router-outlet>
   </div>

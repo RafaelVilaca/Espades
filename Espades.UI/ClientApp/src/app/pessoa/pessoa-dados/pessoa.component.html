@@ -1,0 +1,148 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <p-selectButton [options]="types" [(ngModel)]="optionButton" name="groupButton" (click)="onChangeOption()"></p-selectButton>
+          <hr class="margin-hr" />
+        </div>
+      </div>
+      <div class="row">
+        <div [hidden]="optionButton !== 0" class="col-lg-12">
+          <div class="col-lg-12">
+            <h3>Pessoa</h3>
+            <div class="row">
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" class="form-control" [(ngModel)]="entity.nome"
+                       id="nome" placeholder="Nome" maxlength="100" required>
+              </div>
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" [(ngModel)]="entity.email"
+                       id="email" placeholder="Email" maxlength="100" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <label for="telefone">Telefone Celular</label>
+                <input name="telefone" type="text" class="form-control" [(ngModel)]="entity.telefone" id="telefone"
+                       mask="(00) 0.0000-0000" placeholder="Celular" maxlength="15" required>
+              </div>
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <label for="cpf">CPF</label>
+                <input name="cpf" type="text" class="form-control" [(ngModel)]="entity.cpf"
+                       id="cpf" placeholder="CPF" maxlength="20" mask="000.000.000-00">
+              </div>
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <label for="login">Login</label>
+                <input type="text" name="login" class="form-control" [(ngModel)]="entity.login"
+                       id="login" placeholder="Login" maxlength="50">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
+                <label for="sexo">Sexo</label>
+                <p-dropdown [options]="sexos" [(ngModel)]="entity.sexo" filter="true" name="sexo"
+                            [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+                </p-dropdown>
+              </div>
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <label for="senha">Senha</label>
+                <input name="senha" type="password" class="form-control" [(ngModel)]="entity.senha" id="senha"
+                       placeholder="Senha" maxlength="50" required>
+              </div>
+              <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <label for="confirmSenha">Confirmação de Senha</label>
+                <input name="confirmSenha" type="password" class="form-control" [(ngModel)]="confirmSenha"
+                       id="confirmSenha" placeholder="Confirmação de Senha" maxlength="50" required>
+              </div>
+            </div>
+            <form-footer (onBackClick)="indexPage()" (onSaveClick)="savePessoa()"></form-footer>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div [hidden]="optionButton !== 1">
+          <div class="col-lg-12">
+            <h3>Endereço</h3>
+            <div class="row">
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" class="form-control" [(ngModel)]="endereco.rua"
+                       id="rua" placeholder="Rua" maxlength="100" required>
+              </div>
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="cidade">Número</label>
+                <input type="text" name="cidade" class="form-control" [(ngModel)]="endereco.cidade"
+                       id="cidade" placeholder="Cidade" maxlength="50" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <label for="cep">CEP</label>
+                <input name="cep" type="text" class="form-control" [(ngModel)]="endereco.cep" id="cep"
+                       mask="00.000-000" placeholder="CEP" maxlength="10">
+              </div>
+              <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <label for="numero">Número</label>
+                <input name="numero" type="number" class="form-control" [(ngModel)]="endereco.numero"
+                       id="numero" placeholder="Número" maxlength="8">
+              </div>
+              <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" class="form-control" [(ngModel)]="endereco.complemento"
+                       id="complemento" placeholder="Complemento" maxlength="30">
+              </div>
+              <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <label for="estado">Estado</label>
+                <input name="estado" type="text" class="form-control" [(ngModel)]="endereco.estado" id="estado"
+                       placeholder="Estado" maxlength="2">
+              </div>
+            </div>
+            <form-footer (onBackClick)="indexPage()" (onSaveClick)="saveEndereco()"></form-footer>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3>Endereços</h3>
+                <hr />
+                <div class="col-lg-12">
+                  <p-table [value]="entity.enderecos" [paginator]="true" [rows]="10">
+                    <ng-template pTemplate="header">
+                      <tr>
+                        <th class="col-2">Rua</th>
+                        <th class="col-2">Cidade</th>
+                        <th class="col-2">Número</th>
+                        <th class="col-2">Estado</th>
+                        <th class="col-2">CEP</th>
+                        <th class="col-2" style="text-align: center;">Ações</th>
+                      </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-endereco>
+                      <tr>
+                        <td class="col-2" style="min-width: 150px;">{{endereco.rua}}</td>
+                        <td class="col-2" style="min-width: 150px;">{{endereco.cidade}}</td>
+                        <td class="col-2" style="min-width: 150px;">{{endereco.numero}}</td>
+                        <td class="col-2" style="min-width: 150px;">{{endereco.estado}}</td>
+                        <td class="col-2" style="min-width: 150px;">{{endereco.cep | mask: '00.000-000'}}</td>
+                        <td class="col-2" style="min-width: 105px;">
+                          <button type="button" class="btn btn-outline-dark float-left btn-small" title="EDITAR" (click)="editarEndereco(endereco.id)">
+                            <i class="pi pi-pencil size-x-large"></i>
+                          </button>
+                          <button type="button" class="btn btn-outline-danger float-right btn-small" title="EXCLUIR" (click)="excluirEndereco(endereco.id)">
+                            <i class="pi pi-times size-x-large"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </ng-template>
+                  </p-table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

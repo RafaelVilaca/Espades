@@ -13,8 +13,13 @@ export class AppComponent implements OnInit {
     @Inject(SESSION_CONFIG) public sessionConfig: ISessionConfig) { }
 
   title = 'ESPADES';
+  loggedUser: string = null;
 
   ngOnInit() {
     this.toastService.initialize(this.viewRef);
+
+    setTimeout(() => {
+      this.loggedUser = localStorage.getItem("loggedUser");
+    }, 500);  
   }
 }

@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables.scss";
+@import "assets/css/box.scss";
+@import "assets/css/espades-large.scss";
+@import "assets/css/espades-medium.scss";
+@import "assets/css/espades-small.scss";
 
 .icone-expand {
   transition: 1s;
@@ -6,7 +11,33 @@
 
 .icone-expand:hover {
   filter: grayscale(0%) opacity(1);
-  transition-duration: 1s;
-  transform: scale(1.1);
+  transition-duration: 0.5s;
+  transform: scale(1.01);
   z-index: 10;
+}
+
+.background-default {
+  background-image: url('./assets/images/background-login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.ui-toast-message {
+  border-radius: 5px;
+}
+
+.ui-toast-center {
+  background: white;
+  border-radius: 5px;
 }

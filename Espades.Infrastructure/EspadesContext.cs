@@ -77,6 +77,11 @@ namespace Espades.Infrastructure
         {
             new EnderecoConfiguration(modelBuilder.Entity<Endereco>());
             new PessoaConfiguration(modelBuilder.Entity<Pessoa>());
+            new ProdutoConfiguration(modelBuilder.Entity<Produto>());
+            new SetorConfiguration(modelBuilder.Entity<Setor>());
+            new CargoConfiguration(modelBuilder.Entity<Cargo>());
+            new FuncionarioConfiguration(modelBuilder.Entity<Funcionario>());
+            new PatrimonioConfiguration(modelBuilder.Entity<Patrimonio>());
 
             foreach (IMutableForeignKey relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {

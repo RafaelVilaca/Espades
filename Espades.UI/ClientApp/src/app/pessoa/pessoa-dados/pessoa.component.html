@@ -27,7 +27,7 @@
               <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <label for="telefone">Telefone Celular</label>
                 <input name="telefone" type="text" class="form-control" [(ngModel)]="entity.telefone" id="telefone"
-                       mask="(00) 0.0000-0000" placeholder="Celular" maxlength="15" required>
+                       mask="(00) 0.0000-0000" placeholder="Celular" maxlength="16" required>
               </div>
               <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <label for="cpf">CPF</label>
@@ -58,7 +58,7 @@
                        id="confirmSenha" placeholder="Confirmação de Senha" maxlength="50" required>
               </div>
             </div>
-            <form-footer (onBackClick)="indexPage()" (onSaveClick)="savePessoa()"></form-footer>
+            <form-footer (onBackClick)="indexPage()" (onSaveClick)="savePessoa(true)"></form-footer>
           </div>
         </div>
       </div>
@@ -125,11 +125,11 @@
                         <td class="col-2" style="min-width: 150px;">{{endereco.numero}}</td>
                         <td class="col-2" style="min-width: 150px;">{{endereco.estado}}</td>
                         <td class="col-2" style="min-width: 150px;">{{endereco.cep | mask: '00.000-000'}}</td>
-                        <td class="col-2" style="min-width: 105px;">
-                          <button type="button" class="btn btn-outline-dark float-left btn-small" title="EDITAR" (click)="editarEndereco(endereco.id)">
+                        <td class="col-2" style="min-width: 105px; text-align: center;">
+                          <button type="button" class="btn btn-outline-dark btn-small" title="EDITAR" (click)="editarEndereco(endereco.id)">
                             <i class="pi pi-pencil size-x-large"></i>
                           </button>
-                          <button type="button" class="btn btn-outline-danger float-right btn-small" title="EXCLUIR" (click)="excluirEndereco(endereco.id)">
+                          <button type="button" style="margin-left: 5px;" class="btn btn-outline-danger btn-small" title="EXCLUIR" (click)="excluirEndereco(endereco.id)">
                             <i class="pi pi-times size-x-large"></i>
                           </button>
                         </td>

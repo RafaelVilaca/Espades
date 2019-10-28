@@ -16,3 +16,15 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\ob
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Espades.Common.deps.json
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Espades.Common.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\Espades.Common.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.Resources.LanguageLocalizer.pt-BR.resources
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csproj.GenerateResource.cache
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.AssemblyInfoInputs.cache
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.AssemblyInfo.cs
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Common\obj\Debug\netcoreapp2.2\Espades.Common.csprojAssemblyReference.cache

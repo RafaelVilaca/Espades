@@ -21,3 +21,15 @@ C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\ob
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csproj.CopyComplete
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.dll
 C:\Users\Betta\Documents\Faculdade\TCC\Sistema_Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Domain.deps.json
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Domain.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Domain.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Common.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\Espades.Common.pdb
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\bin\Debug\netcoreapp2.2\pt-BR\Espades.Common.resources.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csprojAssemblyReference.cache
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.AssemblyInfoInputs.cache
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.AssemblyInfo.cs
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.csproj.CopyComplete
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.dll
+C:\Users\Betta\Documents\Espades\Espades\Espades.Domain\obj\Debug\netcoreapp2.2\Espades.Domain.pdb

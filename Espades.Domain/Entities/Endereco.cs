@@ -11,5 +11,6 @@ namespace Espades.Domain.Entities
         public string Cidade { get; set; } //VARCHAR(50), 
         public string Estado { get; set; } //CHAR(2)
         public int? Id_Pessoa { get; set; } //INT,
+        public int? Id_Cliente { get; set; } //INT,
     }
 }

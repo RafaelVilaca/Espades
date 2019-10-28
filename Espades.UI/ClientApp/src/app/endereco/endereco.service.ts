@@ -5,14 +5,7 @@ import { CustomHttpClient } from "../_common/custom-http-client";
 
 @Injectable()
 export class EnderecoService extends BaseService {
-  constructor(httpClient: CustomHttpClient) {
-    super(httpClient, environment.authUrl, "endereco");
-  }
-
-  //public getFinanceChart(): Promise<RequestResult> {
-  //  return this.httpClient.get(`${environment.kpiUrl}finance/finances`, false)
-  //    .then(response => {
-  //      return response;
-  //    });
-  //}
+    constructor(httpClient: CustomHttpClient) {
+        super(httpClient, environment.authUrl, "endereco");
+    }
 }

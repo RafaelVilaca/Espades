@@ -17,14 +17,11 @@
 }
 
 .background-default {
-  background-image: url('./assets/images/background-login.jpg');
+  background-image: linear-gradient(black, darkblue,lightblue,white);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 }

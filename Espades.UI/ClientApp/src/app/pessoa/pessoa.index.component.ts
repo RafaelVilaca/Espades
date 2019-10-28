@@ -13,7 +13,7 @@ import { ToastService } from '../toast-component/toast.service';
 export class PessoaComponent implements OnInit {
   constructor(private route: Router, private pessoaService: PessoaService, private toastService: ToastService) { }
 
-  entity: IPessoa = null;
+  entity: IPessoa[] = [];
   cols: any;
 
   ngOnInit() {

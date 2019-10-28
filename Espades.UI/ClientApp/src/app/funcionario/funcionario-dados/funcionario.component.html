@@ -1,0 +1,42 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Funcionário</h3>
+          <div class="row" *ngIf="!entity.id || entity.id == 0">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
+              <label for="pessoa">Pessoa</label>
+              <p-dropdown [options]="pessoas" [(ngModel)]="entity.id_Pessoa" filter="true" name="pessoa"
+                          [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+              </p-dropdown>
+            </div>
+          </div>
+          <div class="row" *ngIf="entity.id && entity.id != 0">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" class="form-control" [(ngModel)]="entity.pessoa.nome"
+                     id="nome" placeholder="Nome" maxlength="100" readonly>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
+              <label for="cargo">Cargo</label>
+              <p-dropdown [options]="cargos" [(ngModel)]="entity.id_Cargo" filter="true" name="cargo"
+                          [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+              </p-dropdown>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <label for="salario">Salário</label>
+              <input name="salario" type="text" class="form-control" [(ngModel)]="entity.salario" id="salario" prefix="R$ "
+                     mask="XX.000,00" placeholder="Salário" maxlength="12" required>
+            </div>
+          </div>
+          <form-footer (onBackClick)="indexPage()" (onSaveClick)="save()"></form-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

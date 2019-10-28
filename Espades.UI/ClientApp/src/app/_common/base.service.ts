@@ -10,7 +10,6 @@ export class BaseService {
   }
 
   public save(data: any): Promise<RequestResult> {
-
     if (!data.id) {
       return this.httpClient.post(this.baseUrl + this.baseResource, data)
         .then(response => {
@@ -18,6 +17,7 @@ export class BaseService {
         });
     }
     else {
+        console.log(this.baseUrl);
       return this.httpClient.put(this.baseUrl + this.baseResource, data)
         .then(response => {
           return response;

@@ -1,0 +1,57 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Reserva</h3>
+          <div class="row" *ngIf="!entity.id || entity.id == 0">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
+              <label for="produto">Produto</label>
+              <p-dropdown [options]="produtos" [(ngModel)]="entity.id_Produto" filter="true" name="cargo"
+                          [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+              </p-dropdown>
+            </div>
+          </div>
+          <div class="row" *ngIf="entity.id && entity.id != 0">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" class="form-control" [(ngModel)]="entity.produto.descricao"
+                     id="nome" placeholder="Nome" maxlength="100" readonly>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
+              <label for="cliente">Cargo</label>
+              <p-dropdown [options]="clientes" [(ngModel)]="entity.id_Cliente" filter="true" name="cliente"
+                          [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+              </p-dropdown>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="descricao">Descrição</label>
+              <input type="text" name="nome" class="form-control" [(ngModel)]="entity.descricao"
+                     id="descricao" placeholder="Descrição" maxlength="100">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="quantidade">Quantidade</label>
+              <input type="number" name="quantidade" class="form-control" [(ngModel)]="entity.quantidade"
+                     id="quantidade" placeholder="Quantidade" maxlength="12">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Reserva Termina Em:</label>
+              <br />
+              <p-calendar [(ngModel)]="entity.data_Final_Reserva" [monthNavigator]="true" [yearNavigator]="true" yearRange="2000:2030"
+                          [locale]="pt" inputStyleClass="input-date"></p-calendar>
+            </div>
+          </div>
+          <form-footer (onBackClick)="indexPage()" (onSaveClick)="save()"></form-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

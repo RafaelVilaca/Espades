@@ -8,11 +8,4 @@ export class SetorService extends BaseService {
   constructor(httpClient: CustomHttpClient) {
     super(httpClient, environment.authUrl, "setor");
   }
-
-  //public getFinanceChart(): Promise<RequestResult> {
-  //  return this.httpClient.get(`${environment.kpiUrl}finance/finances`, false)
-  //    .then(response => {
-  //      return response;
-  //    });
-  //}
 }

@@ -7,5 +7,6 @@ export interface IEndereco extends BaseInterface {
   complemento?: string,
   cidade?: string,
   estado?: string,
-  id_Pessoa?: number
+  id_Pessoa?: number,
+  id_Cliente?: number
 }

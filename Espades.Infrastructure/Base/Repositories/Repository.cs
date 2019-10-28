@@ -38,7 +38,7 @@ namespace Espades.Infrastructure.Base.Repositories
             _context.Entry(oldEntity).CurrentValues.SetValues(entity);
         }
 
-        public async Task Delete<T>(long id) where T : BaseEntity
+        public async Task Delete<T>(int id) where T : BaseEntity
         {
             Delete(await Get<T>(id));
         }

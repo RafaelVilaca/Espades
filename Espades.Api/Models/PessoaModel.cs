@@ -1,5 +1,6 @@
 ﻿using Espades.Api.Models.Base;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Espades.Api.Models
 {
@@ -12,6 +13,7 @@ namespace Espades.Api.Models
         public string CPF { get; set; } //VARCHAR(14) NOT NULL,
         public string Login { get; set; } //VARCHAR(50) NOT NULL,
         public string Senha { get; set; } //VARCHAR(600),
+        [NotMapped]
         public List<EnderecoModel> Enderecos { get; set; }
     }
 }

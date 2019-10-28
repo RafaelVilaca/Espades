@@ -1,0 +1,33 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Cliente</h3>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" class="form-control" [(ngModel)]="entity.nome"
+                     id="nome" placeholder="Nome" maxlength="100" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome_fantasia">Nome Fantasia</label>
+              <input type="text" name="nome_fantasia" class="form-control" [(ngModel)]="entity.nome_Fantasia"
+                     id="nome" placeholder="Nome Fantasia" maxlength="100" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <label for="cnpj">CNPJ</label>
+              <input name="cnpj" type="text" class="form-control" [(ngModel)]="entity.cnpj" id="cnpj"
+                     mask="00.000.000/0000-00" placeholder="CNPJ" maxlength="18" required>
+            </div>
+          </div>
+          <form-footer (onBackClick)="indexPage()" (onSaveClick)="save()"></form-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

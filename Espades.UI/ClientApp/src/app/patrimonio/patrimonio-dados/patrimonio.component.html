@@ -1,0 +1,42 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Patrimônio</h3>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Descrição</label>
+              <input type="text" name="descricao" class="form-control" [(ngModel)]="entity.descricao"
+                     id="descricao" placeholder="Descrição" maxlength="100">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="nome">Data Compra</label>
+              <br />
+              <p-calendar [(ngModel)]="entity.data_Compra" [monthNavigator]="true" [yearNavigator]="true" yearRange="2000:2030"
+                          [locale]="pt" inputStyleClass="input-date"></p-calendar>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <label for="situacao">Situação</label>
+              <p-dropdown [options]="situacoes" [(ngModel)]="entity.situacao" filter="true" name="situacao"
+                          [emptyFilterMessage]="textConstant.NoRecordsFoundLabel" placeholder="Selecione...">
+              </p-dropdown>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <label for="valor">Valor</label>
+              <input name="valor" type="text" class="form-control" [(ngModel)]="entity.valor" id="valor" prefix="R$ "
+                     mask="XX.000,00" placeholder="Valor" maxlength="12" required>
+            </div>
+          </div>
+          <form-footer (onBackClick)="indexPage()" (onSaveClick)="save()"></form-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

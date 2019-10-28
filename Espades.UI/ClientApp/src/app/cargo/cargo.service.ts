@@ -5,14 +5,7 @@ import { CustomHttpClient } from "../_common/custom-http-client";
 
 @Injectable()
 export class CargoService extends BaseService {
-  constructor(httpClient: CustomHttpClient) {
-    super(httpClient, environment.authUrl, "cargo");
-  }
-
-  //public getFinanceChart(): Promise<RequestResult> {
-  //  return this.httpClient.get(`${environment.kpiUrl}finance/finances`, false)
-  //    .then(response => {
-  //      return response;
-  //    });
-  //}
+    constructor(httpClient: CustomHttpClient) {
+        super(httpClient, environment.authUrl, "cargo");
+    }
 }

@@ -1,4 +1,6 @@
-﻿using Espades.Api.DependencyInjection;
+﻿using AutoMapper;
+using Espades.Api.DependencyInjection;
+using Espades.Api.Mappers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -25,6 +27,8 @@ namespace Espades.Api
 
             //Dependency Injection
             DependencyResolver.Resolve(services, Configuration);
+
+            services.AddAutoMapper(typeof(MappingProfile));
 
             services.AddMvc()
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)

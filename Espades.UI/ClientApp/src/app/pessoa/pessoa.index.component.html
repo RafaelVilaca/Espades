@@ -26,11 +26,11 @@
                 <td class="col-4" style="min-width: 150px;">{{entity.nome}}</td>
                 <td class="col-3" style="min-width: 150px;">{{entity.email}}</td>
                 <td class="col-3" style="min-width: 150px;">{{entity.telefone | mask: '(00) 0.0000-0000'}}</td>
-                <td class="col-2" style="min-width: 105px;">
-                  <button type="button" class="btn btn-outline-dark float-left btn-small" title="EDITAR" (click)="editarEntity(entity.id)">
+                <td class="col-2" style="min-width: 105px; text-align: center;">
+                  <button type="button" class="btn btn-outline-dark btn-small" title="EDITAR" (click)="editarEntity(entity.id)">
                     <i class="pi pi-pencil size-x-large"></i>
                   </button>
-                  <button type="button" class="btn btn-outline-danger float-right btn-small" title="EXCLUIR" (click)="excluirEntity(entity.id)">
+                  <button type="button" style="margin-left: 5px;" class="btn btn-outline-danger btn-small" title="EXCLUIR" (click)="excluirEntity(entity.id)">
                     <i class="pi pi-times size-x-large"></i>
                   </button>
                 </td>

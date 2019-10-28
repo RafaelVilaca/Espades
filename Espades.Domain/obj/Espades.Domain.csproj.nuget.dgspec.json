@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj": {}
+    "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\Espades.Common.csproj": {
+    "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\Espades.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\Espades.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\Espades.Common.csproj",
         "projectName": "Espades.Common",
-        "projectPath": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\Espades.Common.csproj",
+        "projectPath": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\Espades.Common.csproj",
         "packagesPath": "C:\\Users\\Betta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\obj\\",
+        "outputPath": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Betta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,18 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -49,24 +61,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj": {
+    "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj",
         "projectName": "Espades.Domain",
-        "projectPath": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj",
+        "projectPath": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Domain\\Espades.Domain.csproj",
         "packagesPath": "C:\\Users\\Betta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Betta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +100,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\Espades.Common.csproj": {
-                "projectPath": "C:\\Users\\Betta\\Documents\\Faculdade\\TCC\\Sistema_Espades\\Espades\\Espades.Common\\Espades.Common.csproj"
+              "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\Espades.Common.csproj": {
+                "projectPath": "C:\\Users\\Betta\\Documents\\Espades\\Espades\\Espades.Common\\Espades.Common.csproj"
               }
             }
           }
@@ -105,10 +123,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

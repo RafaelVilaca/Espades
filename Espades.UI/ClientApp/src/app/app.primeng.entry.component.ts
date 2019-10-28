@@ -9,17 +9,19 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { ChartModule } from 'primeng/chart';
 import { TableModule } from 'primeng/table';
+import { CalendarModule } from 'primeng/calendar';
 
 export const APP_CONST_PRIMENG_COMPONENTS = [
-  SidebarModule,
-  MenuModule,
-  MenubarModule,
-  DropdownModule,
-  ToastModule,
-  ButtonModule,
-  SelectButtonModule,
-  CheckboxModule,
-  DynamicDialogModule,
-  ChartModule,
-  TableModule
+    SidebarModule,
+    MenuModule,
+    MenubarModule,
+    DropdownModule,
+    ToastModule,
+    ButtonModule,
+    SelectButtonModule,
+    CheckboxModule,
+    DynamicDialogModule,
+    ChartModule,
+    TableModule,
+    CalendarModule
 ];

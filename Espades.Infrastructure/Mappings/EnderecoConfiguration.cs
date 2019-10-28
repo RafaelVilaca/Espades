@@ -23,6 +23,8 @@ namespace Espades.Infrastructure.Mappings
                 .HasMaxLength(2);
             entityBuilder.Property(t => t.Id_Pessoa);
             entityBuilder.HasIndex(t => t.Id_Pessoa).ForSqlServerIsClustered(false);
+            entityBuilder.Property(t => t.Id_Cliente);
+            entityBuilder.HasIndex(t => t.Id_Cliente).ForSqlServerIsClustered(false);
         }
     }
 }

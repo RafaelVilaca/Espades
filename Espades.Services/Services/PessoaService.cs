@@ -1,4 +1,5 @@
-﻿using Espades.Domain.Contracts.Services;
+﻿using Espades.Common.Containers;
+using Espades.Domain.Contracts.Services;
 using Espades.Domain.Entities;
 using Espades.Services.Base;
 using System;
@@ -32,6 +33,20 @@ namespace Espades.Services.Services
             }
 
             return base.BeforeReturnGet(transaction, entity);
+        }
+
+        protected override Task<bool> ShouldInactiveOnDelete(long id, RequestResult result)
+        {
+            bool verify = false;
+            using (var unit = UnitOfWorkFactory.CreateUnitOfWork())
+            {
+                var endereco = unit.Repository.First<Endereco>(x => x.Id_Pessoa == id).Result;
+                verify = endereco != null;
+
+                var funcionario = unit.Repository.First<Funcionario>(x => x.Id_Pessoa == id).Result;
+                verify = funcionario != null;
+            }
+            return Task.FromResult(verify);
         }
         #endregion Overrides
     }

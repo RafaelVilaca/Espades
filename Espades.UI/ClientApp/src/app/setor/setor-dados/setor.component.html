@@ -1,0 +1,73 @@
+<div class="default-padding">
+  <div class="box box-acif">
+    <div class="box-body">
+      <div class="row">
+        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <p-selectButton [options]="types" [(ngModel)]="optionButton" name="groupButton" (click)="onChangeOption()"></p-selectButton>
+          <hr class="margin-hr" />
+        </div>
+      </div>
+      <div class="row">
+        <div [hidden]="optionButton !== 0" class="col-lg-12">
+          <div class="col-lg-12">
+            <h3>Setor</h3>
+            <div class="row">
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="descricao">Descrição</label>
+                <input type="text" name="descricao" class="form-control" [(ngModel)]="entity.descricao"
+                       id="descricao" placeholder="Descrição" maxlength="50" required>
+              </div>
+            </div>
+            <form-footer (onBackClick)="indexPage()" (onSaveClick)="save(true)"></form-footer>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div [hidden]="optionButton !== 2" class="col-lg-12">
+          <div class="col-lg-12">
+            <h3>Cargo</h3>
+            <div class="row">
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="descricao">Descrição</label>
+                <input type="text" name="descricao" class="form-control" [(ngModel)]="cargo.descricao"
+                       id="descricao" placeholder="Descrição" maxlength="50" required>
+              </div>
+            </div>
+            <form-footer (onBackClick)="indexPage()" (onSaveClick)="saveCargo()"></form-footer>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3>Cargos</h3>
+                <hr />
+                <div class="col-lg-12">
+                  <p-table [value]="entity.cargos" [paginator]="true" [rows]="10">
+                    <ng-template pTemplate="header">
+                      <tr>
+                        <th class="col-2">Descrição</th>
+                        <th class="col-2" style="text-align: center;">Ações</th>
+                      </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-cargo>
+                      <tr>
+                        <td class="col-2" style="min-width: 150px;">{{cargo.descricao}}</td>
+                        <td class="col-2" style="min-width: 105px; text-align: center;">
+                          <button type="button" class="btn btn-outline-dark btn-small" title="EDITAR" (click)="editarCargo(cargo.id)">
+                            <i class="pi pi-pencil size-x-large"></i>
+                          </button>
+                          <button type="button" style="margin-left: 5px;" class="btn btn-outline-danger btn-small" title="EXCLUIR" (click)="excluirCargo(cargo.id)">
+                            <i class="pi pi-times size-x-large"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </ng-template>
+                  </p-table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

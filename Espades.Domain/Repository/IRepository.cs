@@ -12,7 +12,7 @@ namespace Espades.Domain.Repository
         void Add<T>(T entity) where T : BaseEntity;
         void Edit<T>(T entity) where T : BaseEntity;
         Task Edit<T>(object id, T entity) where T : BaseEntity;
-        Task Delete<T>(long id) where T : BaseEntity;
+        Task Delete<T>(int id) where T : BaseEntity;
         void Delete<T>(T entity) where T : BaseEntity;
         Task<T> Get<T>(object id) where T : BaseEntity;
         IQueryable<T> Get<T>(bool noTracking = false) where T : BaseEntity;

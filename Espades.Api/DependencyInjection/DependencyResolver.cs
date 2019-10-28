@@ -33,6 +33,15 @@ namespace Espades.Api.DependencyInjection
 
             services.TryAddTransient<IEnderecoService, EnderecoService>();
             services.TryAddTransient<IPessoaService, PessoaService>();
+            services.TryAddTransient<IProdutoService, ProdutoService>();
+            services.TryAddTransient<ISetorService, SetorService>();
+            services.TryAddTransient<ICargoService, CargoService>();
+            services.TryAddTransient<IFuncionarioService, FuncionarioService>();
+            services.TryAddTransient<IPatrimonioService, PatrimonioService>();
+            services.TryAddTransient<IReservaService, ReservaService>();
+            services.TryAddTransient<IDespesaService, DespesaService>();
+            services.TryAddTransient<IEstoqueService, EstoqueService>();
+            services.TryAddTransient<IClienteService, ClienteService>();
         }
     }
 }

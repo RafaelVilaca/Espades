@@ -1,11 +1,41 @@
 <div class="default-padding">
-  <div>
-    <div class="box">
-      <div class="box-body">
-        <div class="row">
-          <span>tete</span>
+  <div class="box box-espades">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="float-left">Produtos</h3>
+          <button type="button" class="btn btn-outline-primary float-right btn-small" title="ADICIONAR" (click)="addProduto()">
+            <i class="pi pi-user-plus size-x-large"></i>
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-lg-12">
+          <p-table [value]="entity" [paginator]="true" [rows]="10">
+            <ng-template pTemplate="header">
+              <tr>
+                <th class="col-4">Descrição</th>
+                <th class="col-2" style="text-align: center;">Ações</th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-entity>
+              <tr>
+                <td class="col-4" style="min-width: 150px;">{{entity.descricao}}</td>
+                <td class="col-2" style="min-width: 105px; text-align: center;">
+                  <button type="button" class="btn btn-outline-dark btn-small" title="EDITAR" (click)="editarEntity(entity.id)">
+                    <i class="pi pi-pencil size-x-large"></i>
+                  </button>
+                  <button type="button" style="margin-left: 5px;" class="btn btn-outline-danger btn-small" title="EXCLUIR" (click)="excluirEntity(entity.id)">
+                    <i class="pi pi-times size-x-large"></i>
+                  </button>
+                </td>
+              </tr>
+            </ng-template>
+          </p-table>
         </div>
       </div>
     </div>
   </div>
 </div>
+

@@ -19,35 +19,6 @@ namespace Espades.Api.Controllers
         #endregion Ctor
 
         #region Overrides
-        [HttpGet]
-        public override async Task<IActionResult> Get()
-        {
-            return await Task.FromResult(NotFound());
-        }
-
-        [HttpGet("{id}")]
-        public override async Task<IActionResult> Get(long id)
-        {
-            return await Task.FromResult(NotFound());
-        }
-
-        [HttpPost]
-        public override async Task<IActionResult> Post([FromBody]EnderecoModel model)
-        {
-            return await Task.FromResult(NotFound());
-        }
-
-        [HttpPut("{id}")]
-        public override async Task<IActionResult> Put([FromBody]EnderecoModel model)
-        {
-            return await Task.FromResult(NotFound());
-        }
-
-        [HttpDelete("{id}")]
-        public override async Task<IActionResult> Delete(int id)
-        {
-            return await Task.FromResult(NotFound());
-        }
         #endregion Overrides
     }
 }

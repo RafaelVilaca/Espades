@@ -101,7 +101,7 @@ namespace Espades.Services.Base
             return result;
         }
 
-        public virtual async Task<RequestResult> Delete(long id)
+        public virtual async Task<RequestResult> Delete(int id)
         {
             RequestResult result = new RequestResult();
 
@@ -150,7 +150,7 @@ namespace Espades.Services.Base
             return result;
         }
 
-        public virtual async Task<RequestResult> Get(long id)
+        public virtual async Task<RequestResult> Get(int id)
         {
             RequestResult result = new RequestResult(StatusResult.Success);
 

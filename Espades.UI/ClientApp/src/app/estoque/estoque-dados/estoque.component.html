@@ -3,7 +3,7 @@
     <div class="box-body">
       <div class="row">
         <div class="col-lg-12">
-          <h3>Funcionário</h3>
+          <h3>Estoque</h3>
           <div class="row" *ngIf="!entity.id || entity.id == 0">
             <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 float-left drop-down-small">
               <label for="produto">Produto</label>
@@ -38,7 +38,7 @@
               <label for="nome">Data Compra</label>
               <br />
               <p-calendar [(ngModel)]="entity.data_Compra" [monthNavigator]="true" [yearNavigator]="true" yearRange="2000:2030"
-                          [locale]="pt" inputStyleClass="input-date"></p-calendar>
+                          [locale]="pt" inputStyleClass="input-date" [showTime]="true"></p-calendar>
             </div>
           </div>
           <div class="row">

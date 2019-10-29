@@ -46,7 +46,7 @@
               <label for="nome">Reserva Termina Em:</label>
               <br />
               <p-calendar [(ngModel)]="entity.data_Final_Reserva" [monthNavigator]="true" [yearNavigator]="true" yearRange="2000:2030"
-                          [locale]="pt" inputStyleClass="input-date"></p-calendar>
+                          [locale]="pt" inputStyleClass="input-date" [showTime]="true"></p-calendar>
             </div>
           </div>
           <form-footer (onBackClick)="indexPage()" (onSaveClick)="save()"></form-footer>

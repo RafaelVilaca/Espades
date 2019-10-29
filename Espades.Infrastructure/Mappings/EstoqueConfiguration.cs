@@ -23,10 +23,6 @@ namespace Espades.Infrastructure.Mappings
                 .IsRequired();
             entityBuilder.Property(t => t.Id_Produto);
             entityBuilder.HasIndex(t => t.Id_Produto).ForSqlServerIsClustered(false);
-            //Quantidade DECIMAL(10,2) NOT NULL,
-            //   Valor DECIMAL(10, 2) NOT NULL,
-            //   ID_Reserva INT NOT NULL,
-            //Deleted BIT DEFAULT 0,
         }
     }
 }

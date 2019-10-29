@@ -82,6 +82,10 @@ namespace Espades.Infrastructure
             new CargoConfiguration(modelBuilder.Entity<Cargo>());
             new FuncionarioConfiguration(modelBuilder.Entity<Funcionario>());
             new PatrimonioConfiguration(modelBuilder.Entity<Patrimonio>());
+            new EstoqueConfiguration(modelBuilder.Entity<Estoque>());
+            new DespesaConfiguration(modelBuilder.Entity<Despesa>());
+            new ClienteConfiguration(modelBuilder.Entity<Cliente>());
+            new ReservaConfiguration(modelBuilder.Entity<Reserva>());
 
             foreach (IMutableForeignKey relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {
